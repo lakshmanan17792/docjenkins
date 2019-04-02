@@ -1,19 +1,20 @@
+
 FROM mhart/alpine-node:6
 
 # Install required dependencies (Alpine Linux packages)
-RUN apk update && \
-  apk add --no-cache \
-    sudo \
-    g++ \
-    gcc \
-    git \
-    libev-dev \
-    libevent-dev \
-    libuv-dev \
-    make \
-    openssl-dev \
-    perl \
-    python
+# RUN apk update -y && \
+#   apk add --no-cache \
+#     sudo \
+#     g++ \
+#     gcc \
+#     git \
+#     libev-dev \
+#     libevent-dev \
+#     libuv-dev \
+#     make \
+#     openssl-dev \
+#     perl \
+#     python
 
 # Add user and make it sudoer
 ARG uid=1000
