@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="20px" viewBox="0 0 22 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Triangle Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-0.8%" y="-11.4%" width="101.6%" height="128.6%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.741176471   0 0 0 0 0.815686275   0 0 0 0 0.874509804  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.6">
+        <g id="Dashboard/Admin/Home" transform="translate(-353.000000, -97.000000)" fill="#7B8599">
+            <g id="Sub-Header" filter="url(#filter-1)" transform="translate(200.000000, 70.000000)">
+                <g id="Date-Component" transform="translate(20.000000, 15.000000)">
+                    <path d="M144.819976,23.565316 L148.852003,17.5172746 C149.150981,17.0688079 149.029796,16.4628845 148.58133,16.1639067 C148.421017,16.0570313 148.232655,16 148.039983,16 L139.975927,16 C139.436938,16 139,16.4369376 139,16.9759275 C139,17.1685999 139.057031,17.3569614 139.163907,17.5172746 L143.195934,23.565316 C143.494912,24.0137826 144.100836,24.1349673 144.549302,23.8359896 C144.65651,23.7645176 144.748504,23.6725238 144.819976,23.565316 Z" id="Triangle-Copy"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,121 @@
+@import '../../theme/variables.scss';
+@import './../../components/FormComponents/FormComponents.scss';
+.user_profile_container {
+  padding: 15px;
+  // background-color: #EDEDEE;
+  .user_middle_content {
+    margin: auto;
+    padding: 0px;
+    padding-top: 10px;
+    width: 60%;
+    .user_profile_content {
+      background: $white;
+      padding: 0px;
+      min-height: 70vh;
+    }
+  }
+  .profile_password_form {
+    .profile_password {
+      margin-top: 15px;
+      label {
+        font-size: 14px;
+        font-weight: bold;
+      }
+      input {
+        padding-left: 0px;
+      }
+    }
+  }
+}
+
+.edit_profile {
+  padding: 0px;
+  font-size: 14px;
+  max-width: 80px;
+  @extend %textStyles;
+  border-radius: 2px;
+  span {
+    position: relative;
+    top: -2px;
+  }
+}
+
+.update_btn {
+  padding-left: 7px;
+  padding-right: 7px;
+  width: 100%;
+  height: 35px;
+  font-size: 12px;
+  border-radius:2px;
+}
+
+.personal_profile {
+  .profile_image {
+    img {
+      width: 80%;
+    }
+  }
+  .profile_details {
+    .profile_data {
+      margin-top: 15px;
+      label {
+        font-size: 0.9rem;
+        font-weight: bold;
+        color: $subtle-text-color;
+      }
+      .user_data {
+        font-size: 0.9rem;
+        color: $primary-color;
+        text-overflow: ellipsis;
+        overflow: hidden;
+      }
+      input {
+        padding-left: 0px;
+      }
+      .profile_status {
+        .status_checkbox {
+          font-size: 14px;
+          font-weight: 400;
+        }
+      }
+    }
+    button {
+      @extend %textStyles;
+      .action_labels {
+       position: relative;
+       top: -2px;
+      }
+    }
+  }
+}
+
+.tab_section {
+  .personal_profile {
+    padding-bottom: 20px !important;
+  }
+  ul {
+    background-color: $white !important;
+    li {
+      border: none !important;
+      a {
+        text-decoration: none;
+        border: none !important;
+        margin-right: 0;
+        line-height: unset;
+        padding-left: 35px;
+        padding-right: 35px;
+        font-weight: normal;
+        font-size: 14px;
+        color: $text-color !important;
+        &:hover, &:focus {
+          color: $primary-color;
+          background: transparent;
+          border-color: transparent;
+        }
+      }
+    }
+  }
+  > div {
+    background-color: #fff !important;
+  }
+}

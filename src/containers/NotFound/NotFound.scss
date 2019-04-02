@@ -1,0 +1,22 @@
+.container {
+  height: 400px;
+  top: calc((100vh - 400px) / 2);
+  .content {
+    position: absolute;
+    width: 200px;
+    h1 {
+      font-weight: 300;
+    }
+    h4 {
+      font-weight: 100;
+      margin-top: 20px;
+    }
+  }
+  .dashboardBtn {
+    padding: 10px 30px;
+    margin-top: 20px;
+  }
+  img {
+    float: right;
+  }
+}

@@ -1,0 +1,119 @@
+@import "./../../theme/variables.scss";
+
+.m_t_b_10 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.rolesContainer {
+    margin: 20px 30px;
+    .expand_collapse_btn {
+        height: 35px;
+        border-radius: 4px;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 0 20px;
+        &.form_btn {
+            float: right;
+        }
+    }
+
+    .white_expand_collapse_btn {
+        height: 35px;
+        border-radius: 4px;
+        background-color: $white !important;
+        border: solid 1px  $white !important;
+        color: #636363;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 0 20px;
+        &.form_btn {
+            float: right;
+        }
+    }
+
+    .tree {
+        margin: 20px;
+    }
+
+    .addPopup {
+        position: absolute;
+        z-index: 1000;
+        .arrow_up {
+            margin-top: -5px;
+            width: 0; 
+            height: 0; 
+            border-left: 5px solid transparent;
+            border-right: 5px solid transparent;
+            border-bottom: 5px solid $white;
+            margin-left: 20px;
+            position: absolute;
+        }
+        .form {
+            width: 300px;
+            min-height: 300px;
+            position: absolute;
+            background-color: $white;
+            margin-left: 350px;
+            margin-top: 10px;
+            -webkit-box-shadow: 1px 1px 25px 0px rgba(181,181,181,1) !important;
+            -moz-box-shadow: 1px 1px 25px 0px rgba(181,181,181,1) !important;
+            box-shadow: 1px 1px 25px 0px rgba(181,181,181,1) !important;
+            .add_role_form {
+                padding: 15px 25px;
+            }
+            .addBtnContainer {
+                margin: 35px -35px 30px -35px;
+                padding: 10px 15px;
+                -webkit-box-shadow: -4px -6px 7px -8px rgba(181,181,181,1);
+                -moz-box-shadow: -4px -6px 7px -8px rgba(181,181,181,1);
+                box-shadow: -4px -6px 7px -8px rgba(181,181,181,1);
+            }
+        }
+
+        .title {
+            text-align: center;
+            height: 50px;
+            padding: 15px;
+            -webkit-box-shadow: -3px 6px 7px -8px rgba(181,181,181,1);
+            -moz-box-shadow: -3px 6px 7px -8px rgba(181,181,181,1);
+            box-shadow: -3px 6px 7px -8px rgba(181,181,181,1);
+            font-size: 15px;
+            font-weight: 700;
+        }
+    }
+}
+
+.roleManager {
+    .rolesContainer {
+        float: right;
+        margin: 0px;
+    }
+    .clone {
+        .addPopup {
+            position: absolute;
+            z-index: 1000;
+            .arrow_up {
+                margin-left: 250px;
+            }
+            .form {
+                margin-left: -130px;
+                margin-top: 50px;
+            }
+        }
+    }
+
+    .edit {
+        .addPopup {
+            position: absolute;
+            z-index: 1000;
+            .arrow_up {
+                margin-left: 260px;
+            }
+            .form {
+                margin-left: -230px;
+                margin-top: 50px;
+            }
+        }
+    }
+}

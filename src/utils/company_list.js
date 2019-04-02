@@ -1,0 +1,33 @@
+const cpmanies = [
+  "A.SPRINGER SE VNA",
+  "AAP IMPLANTATE AG",
+  "AAREAL BANK AG",
+  "Abas ERP",
+  "Abbott Laboratories Inc.",
+  "Ableton",
+  "AbsInt",
+  "Abt Sportsline",
+  "Bericap, screw caps",
+  "Berliner Börse",
+  "Bertelsmann",
+  "Bertelsmann Printing Group",
+  "Bertelsmann, media",
+  "BERTRANDT AG O.N.",
+  "Cassella",
+  "Catch Wrestling Association",
+  "Caterpillar Inc.",
+  "Celanese Corp.",
+  "Celemony Software",
+  "Celesio, pharmaceuticals",
+  "Cellulant Nigeria",
+  "Dieffenbacher",
+  "Diehl Aerospace",
+  "Diehl BGT Defence",
+  "Diehl Metall",
+  "Diehl Metall",
+  "DIERIG HOLDING AG O.N.",
+  "Dietz Computer Systems",
+  "Diezel, guitar amplifiers"
+];
+
+export default cpmanies;

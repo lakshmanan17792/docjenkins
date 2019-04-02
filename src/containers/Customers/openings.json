@@ -1,0 +1,1602 @@
+{
+  "response": [
+    {
+      "id": 508,
+      "jobTitle": "DATA SCIENCE",
+      "description": "",
+      "priority": "veryHighPriority",
+      "vacancies": 12,
+      "type": "fullTime",
+      "startDate": null,
+      "endDate": null,
+      "status": "active",
+      "filters": {
+        "preferredRadius": 0,
+        "companies": {
+          "id": "2234633",
+          "name": "Irene Abele"
+        }
+      },
+      "createdBy": 1,
+      "createdAt": "2018-03-02T07:00:10.731Z",
+      "modifiedBy": null,
+      "modifiedAt": null,
+      "companyId": 78,
+      "contactId": 121,
+      "statusCount": {
+        "selected": 0,
+        "shortlisted": 0,
+        "contacted": 2,
+        "hired": 0,
+        "rejected": 0,
+        "scheduled": 0
+      },
+      "recruiters": [
+        {
+          "firstName": "Javaji",
+          "lastName": "Admin",
+          "contactNumber": "9840123129",
+          "email": "ignatius.alfred@gmail.com",
+          "id": 1
+        },
+        {
+          "firstName": "Irene",
+          "lastName": "Thomas",
+          "contactNumber": "987654321",
+          "email": "rina@ideas2it.com",
+          "id": 83
+        }
+      ],
+      "jobCategories": [],
+      "openinglocations": [],
+      "jobOpeningDetails": {
+        "salary": null,
+        "permFee": null,
+        "contractStartDate": null,
+        "contractEndDate": null,
+        "payRate": null,
+        "billRate": null,
+        "payRateFreelance": null,
+        "salaryContract": null,
+        "freelanceStartDate": null,
+        "freelanceEndDate": null,
+        "fullTimeStartDate": null,
+        "fullTimeEndDate": null,
+        "contractASAP": null,
+        "fullTimeASAP": null,
+        "partTimeASAP": null,
+        "createdBy": 1,
+        "createdAt": "2018-03-02T07:00:10.796Z",
+        "modifiedBy": null,
+        "modifiedAt": null,
+        "id": 384,
+        "jobOpeningId": 508
+      },
+      "company": {
+        "id": 78,
+        "name": "Ransy Group of Companies",
+        "domain": "www.milestone.com",
+        "linkedinurl": null,
+        "address": null,
+        "state": null,
+        "pincode": null,
+        "description": null,
+        "country": "South Korea",
+        "createdAt": "2018-03-02T06:56:59.716Z",
+        "modifiedBy": 1,
+        "modifiedAt": "2018-03-02T06:57:27.158Z",
+        "city": "Seoul",
+        "createdBy": 1
+      }
+    },
+    {
+      "id": 507,
+      "jobTitle": "Angular devs-12 - Clone 2 - Clone",
+      "description": "<p style=\"text-align:left;\"><span style=\"color: rgb(26,188,156);\"><strong>hdhdfdhdhdhddfdhffhfhf</strong></span></p>",
+      "priority": "highPriority",
+      "vacancies": 12,
+      "type": "fullTime",
+      "startDate": null,
+      "endDate": null,
+      "status": "active",
+      "filters": {
+        "skills": [
+          {
+            "id": "AWFbO2nGXZQHLsI7Ljzt",
+            "name": "FIX"
+          },
+          {
+            "id": "AWFbO2nEXZQHLsI7Ljp1",
+            "name": "Bamboo"
+          }
+        ],
+        "location": [
+          {
+            "id": "AWEitJ_KXZQHLsI7HHT5",
+            "name": "Gabsheim"
+          }
+        ],
+        "preferredRadius": 0,
+        "keywords": "java",
+        "positions": [],
+        "companies": {
+          "id": "539045",
+          "name": "! - 0 - 24 Stunden Schlüsseldienst A.K. e.K.",
+          "target_company": "539045"
+        },
+        "experience": [
+          0,
+          5
+        ]
+      },
+      "createdBy": 1,
+      "createdAt": "2018-03-02T05:46:36.549Z",
+      "modifiedBy": 1,
+      "modifiedAt": "2018-03-02T05:52:56.785Z",
+      "companyId": 27,
+      "contactId": 41,
+      "statusCount": {
+        "selected": 0,
+        "shortlisted": 0,
+        "contacted": 0,
+        "hired": 0,
+        "rejected": 0,
+        "scheduled": 0
+      },
+      "recruiters": [
+        {
+          "firstName": "Praveen",
+          "lastName": "Raj",
+          "contactNumber": "9865412578",
+          "email": "praveenraj@ideas2it.com",
+          "id": 14
+        }
+      ],
+      "jobCategories": [],
+      "openinglocations": [],
+      "jobOpeningDetails": {
+        "salary": null,
+        "permFee": null,
+        "contractStartDate": null,
+        "contractEndDate": null,
+        "payRate": null,
+        "billRate": null,
+        "payRateFreelance": null,
+        "salaryContract": null,
+        "freelanceStartDate": null,
+        "freelanceEndDate": null,
+        "fullTimeStartDate": null,
+        "fullTimeEndDate": null,
+        "contractASAP": null,
+        "fullTimeASAP": null,
+        "partTimeASAP": null,
+        "createdBy": 1,
+        "createdAt": "2018-03-02T05:46:36.897Z",
+        "modifiedBy": 1,
+        "modifiedAt": "2018-03-02T05:52:56.846Z",
+        "id": 383,
+        "jobOpeningId": 507
+      },
+      "company": {
+        "id": 27,
+        "name": "German Express Shipping Agency (India) Pvt Ltd.",
+        "domain": "http://www.germanexpress.in/",
+        "linkedinurl": "",
+        "address": "test address",
+        "state": "Hamburg",
+        "pincode": "1454",
+        "description": "https://twitter.com/intent/tweet?text=India:%20Mechanized%20tunnelling%20for%20better%20infrastructure%20-%20Herrenknecht%20AG&url=https%3A%2F%2Fwww.herrenknecht.com%2Fen%2Fmedia%2Fpress-information%2F2012%2Findia-mechanized-tunnelling-for-better-infrastructure.html%23.WnB8SwfQqnY.twitter&related=",
+        "country": "Germany",
+        "createdAt": "2018-01-30T14:05:55.576Z",
+        "modifiedBy": 1,
+        "modifiedAt": "2018-01-30T14:06:52.038Z",
+        "city": "test city",
+        "createdBy": 1
+      }
+    },
+    {
+      "id": 506,
+      "jobTitle": "React Openings - Clone",
+      "description": null,
+      "priority": "highPriority",
+      "vacancies": 15,
+      "type": "partTime",
+      "startDate": null,
+      "endDate": null,
+      "status": "active",
+      "filters": {
+        "skills": [
+          {
+            "id": "AWFbO2nIXZQHLsI7LkDB",
+            "name": "reactjs"
+          }
+        ],
+        "location": [],
+        "preferredRadius": 0,
+        "experience": [
+          0,
+          7
+        ],
+        "positions": [],
+        "companies": {
+          "id": "539045",
+          "name": "! - 0 - 24 Stunden Schlüsseldienst A.K. e.K.",
+          "target_company": "539045"
+        },
+        "source": [],
+        "bestMatches": false,
+        "allMatches": true
+      },
+      "createdBy": 1,
+      "createdAt": "2018-03-02T05:44:01.126Z",
+      "modifiedBy": 1,
+      "modifiedAt": "2018-03-02T05:54:00.087Z",
+      "companyId": 31,
+      "contactId": 53,
+      "statusCount": {
+        "selected": 0,
+        "shortlisted": 0,
+        "contacted": 0,
+        "hired": 0,
+        "rejected": 0,
+        "scheduled": 0
+      },
+      "recruiters": [
+        {
+          "firstName": "akkkshay",
+          "lastName": null,
+          "contactNumber": null,
+          "email": "akshay@ideas2it.com",
+          "id": 42
+        }
+      ],
+      "jobCategories": [
+        {
+          "name": "Design",
+          "id": 7
+        }
+      ],
+      "openinglocations": [
+        {
+          "name": "Abstatt",
+          "createdBy": 1,
+          "createdAt": "2018-03-02T05:44:01.210Z",
+          "modifiedBy": 1,
+          "modifiedAt": "2018-03-02T05:54:00.147Z",
+          "id": 220,
+          "jobId": 506
+        }
+      ],
+      "jobOpeningDetails": {
+        "salary": null,
+        "permFee": null,
+        "contractStartDate": null,
+        "contractEndDate": null,
+        "payRate": null,
+        "billRate": 1212,
+        "payRateFreelance": 12,
+        "salaryContract": null,
+        "freelanceStartDate": null,
+        "freelanceEndDate": null,
+        "fullTimeStartDate": null,
+        "fullTimeEndDate": null,
+        "contractASAP": null,
+        "fullTimeASAP": null,
+        "partTimeASAP": true,
+        "createdBy": 1,
+        "createdAt": "2018-03-02T05:44:01.239Z",
+        "modifiedBy": 1,
+        "modifiedAt": "2018-03-02T05:54:00.205Z",
+        "id": 382,
+        "jobOpeningId": 506
+      },
+      "company": {
+        "id": 31,
+        "name": "Orange",
+        "domain": null,
+        "linkedinurl": null,
+        "address": "Street Address",
+        "state": "Frankfurt",
+        "pincode": "564987987",
+        "description": "Company Desc",
+        "country": "Germany",
+        "createdAt": "2018-02-03T09:51:46.905Z",
+        "modifiedBy": 1,
+        "modifiedAt": "2018-02-15T10:39:33.174Z",
+        "city": "Berlin",
+        "createdBy": 1
+      }
+    },
+    {
+      "id": 505,
+      "jobTitle": "Angular devs-12 - Clone 2",
+      "description": "<p style=\"text-align:left;\"><span style=\"color: rgb(26,188,156);\"><strong>hdhdfdhdhdhddfdhffhfhf</strong></span></p>",
+      "priority": "highPriority",
+      "vacancies": 12,
+      "type": "fullTime",
+      "startDate": null,
+      "endDate": null,
+      "status": "active",
+      "filters": {
+        "skills": [
+          {
+            "id": "AWFbO2nGXZQHLsI7Ljzt",
+            "name": "FIX"
+          },
+          {
+            "id": "AWFbO2nEXZQHLsI7Ljp1",
+            "name": "Bamboo"
+          }
+        ],
+        "location": [
+          {
+            "id": "AWEitJ_KXZQHLsI7HHT5",
+            "name": "Gabsheim"
+          }
+        ],
+        "preferredRadius": 0,
+        "keywords": "java",
+        "positions": [
+          {
+            "id": "AWF6aeccXZQHLsI7Nxv2",
+            "name": "Data Quality Manager"
+          },
+          {
+            "id": "AWF6aeccXZQHLsI7NxwN",
+            "name": "Front-end developer Java / .NET"
+          }
+        ],
+        "companies": {
+          "id": "539045",
+          "name": "! - 0 - 24 Stunden Schlüsseldienst A.K. e.K."
+        }
+      },
+      "createdBy": 1,
+      "createdAt": "2018-03-02T05:43:37.561Z",
+      "modifiedBy": null,
+      "modifiedAt": null,
+      "companyId": 27,
+      "contactId": 41,
+      "statusCount": {
+        "selected": 0,
+        "shortlisted": 0,
+        "contacted": 0,
+        "hired": 0,
+        "rejected": 0,
+        "scheduled": 0
+      },
+      "recruiters": [
+        {
+          "firstName": "Praveen",
+          "lastName": "Raj",
+          "contactNumber": "9865412578",
+          "email": "praveenraj@ideas2it.com",
+          "id": 14
+        }
+      ],
+      "jobCategories": [],
+      "openinglocations": [],
+      "jobOpeningDetails": {
+        "salary": null,
+        "permFee": null,
+        "contractStartDate": null,
+        "contractEndDate": null,
+        "payRate": null,
+        "billRate": null,
+        "payRateFreelance": null,
+        "salaryContract": null,
+        "freelanceStartDate": null,
+        "freelanceEndDate": null,
+        "fullTimeStartDate": null,
+        "fullTimeEndDate": null,
+        "contractASAP": null,
+        "fullTimeASAP": null,
+        "partTimeASAP": null,
+        "createdBy": 1,
+        "createdAt": "2018-03-02T05:43:37.648Z",
+        "modifiedBy": null,
+        "modifiedAt": null,
+        "id": 381,
+        "jobOpeningId": 505
+      },
+      "company": {
+        "id": 27,
+        "name": "German Express Shipping Agency (India) Pvt Ltd.",
+        "domain": "http://www.germanexpress.in/",
+        "linkedinurl": "",
+        "address": "test address",
+        "state": "Hamburg",
+        "pincode": "1454",
+        "description": "https://twitter.com/intent/tweet?text=India:%20Mechanized%20tunnelling%20for%20better%20infrastructure%20-%20Herrenknecht%20AG&url=https%3A%2F%2Fwww.herrenknecht.com%2Fen%2Fmedia%2Fpress-information%2F2012%2Findia-mechanized-tunnelling-for-better-infrastructure.html%23.WnB8SwfQqnY.twitter&related=",
+        "country": "Germany",
+        "createdAt": "2018-01-30T14:05:55.576Z",
+        "modifiedBy": 1,
+        "modifiedAt": "2018-01-30T14:06:52.038Z",
+        "city": "test city",
+        "createdBy": 1
+      }
+    },
+    {
+      "id": 504,
+      "jobTitle": "BAM - Clone",
+      "description": null,
+      "priority": "veryHighPriority",
+      "vacancies": 123,
+      "type": "fullTime",
+      "startDate": null,
+      "endDate": null,
+      "status": "active",
+      "filters": {
+        "skills": [
+          {
+            "id": "AWFbO2nEXZQHLsI7LjtO",
+            "name": "ASIC"
+          },
+          {
+            "id": "AWFbO2nCXZQHLsI7Ljfd",
+            "name": "FILE-AID"
+          }
+        ],
+        "location": [
+          {
+            "id": "AWEitJ_TXZQHLsI7HHqh",
+            "name": "Laatzen"
+          }
+        ],
+        "preferredRadius": 12,
+        "keywords": "java AND javascript AND sql",
+        "experience": [
+          3,
+          18
+        ],
+        "positions": [
+          {
+            "id": "AWF6aeccXZQHLsI7NxvC",
+            "name": "ABAP developer"
+          }
+        ],
+        "source": [
+          {
+            "id": "TK",
+            "value": "tk"
+          }
+        ]
+      },
+      "createdBy": 1,
+      "createdAt": "2018-03-02T05:40:30.057Z",
+      "modifiedBy": null,
+      "modifiedAt": null,
+      "companyId": 28,
+      "contactId": 42,
+      "statusCount": {
+        "selected": 0,
+        "shortlisted": 0,
+        "contacted": 0,
+        "hired": 0,
+        "rejected": 0,
+        "scheduled": 0
+      },
+      "recruiters": [
+        {
+          "firstName": "Praveen",
+          "lastName": "Raj",
+          "contactNumber": "9865412578",
+          "email": "praveenraj@ideas2it.com",
+          "id": 14
+        },
+        {
+          "firstName": "Sujith",
+          "lastName": "s",
+          "contactNumber": "21321321321",
+          "email": "sujith@ideas2it.com",
+          "id": 20
+        }
+      ],
+      "jobCategories": [
+        {
+          "name": "Executive",
+          "id": 6
+        }
+      ],
+      "openinglocations": [],
+      "jobOpeningDetails": {
+        "salary": 123344,
+        "permFee": 1,
+        "contractStartDate": null,
+        "contractEndDate": null,
+        "payRate": null,
+        "billRate": null,
+        "payRateFreelance": null,
+        "salaryContract": null,
+        "freelanceStartDate": null,
+        "freelanceEndDate": null,
+        "fullTimeStartDate": null,
+        "fullTimeEndDate": null,
+        "contractASAP": null,
+        "fullTimeASAP": true,
+        "partTimeASAP": null,
+        "createdBy": 1,
+        "createdAt": "2018-03-02T05:40:30.126Z",
+        "modifiedBy": null,
+        "modifiedAt": null,
+        "id": 380,
+        "jobOpeningId": 504
+      },
+      "company": {
+        "id": 28,
+        "name": "WABCO India Limited",
+        "domain": "http://www.wabco-auto.com/wabcoindia/home/",
+        "linkedinurl": null,
+        "address": null,
+        "state": "Dresden",
+        "pincode": "146521",
+        "description": null,
+        "country": "Germany",
+        "createdAt": "2018-01-30T14:08:49.684Z",
+        "modifiedBy": 1,
+        "modifiedAt": "2018-02-07T09:38:29.992Z",
+        "city": null,
+        "createdBy": 1
+      }
+    },
+    {
+      "id": 503,
+      "jobTitle": "BAM",
+      "description": null,
+      "priority": "veryHighPriority",
+      "vacancies": 123,
+      "type": "fullTime",
+      "startDate": null,
+      "endDate": null,
+      "status": "active",
+      "filters": {
+        "skills": [
+          {
+            "id": "AWFbO2nEXZQHLsI7LjtO",
+            "name": "ASIC"
+          },
+          {
+            "id": "AWFbO2nCXZQHLsI7Ljfd",
+            "name": "FILE-AID"
+          }
+        ],
+        "location": [
+          {
+            "id": "AWEitJ_TXZQHLsI7HHqh",
+            "name": "Laatzen"
+          }
+        ],
+        "preferredRadius": 12,
+        "keywords": "java AND javascript AND sql",
+        "experience": [
+          3,
+          18
+        ],
+        "positions": [
+          {
+            "id": "AWF6aeccXZQHLsI7NxvC",
+            "name": "ABAP developer"
+          }
+        ],
+        "source": [
+          {
+            "id": "TK",
+            "value": "tk"
+          }
+        ]
+      },
+      "createdBy": 1,
+      "createdAt": "2018-03-01T13:01:23.661Z",
+      "modifiedBy": 1,
+      "modifiedAt": "2018-03-01T17:19:21.967Z",
+      "companyId": 28,
+      "contactId": 42,
+      "statusCount": {
+        "selected": 2,
+        "shortlisted": 0,
+        "contacted": 0,
+        "hired": 0,
+        "rejected": 0,
+        "scheduled": 0
+      },
+      "recruiters": [
+        {
+          "firstName": "Praveen",
+          "lastName": "Raj",
+          "contactNumber": "9865412578",
+          "email": "praveenraj@ideas2it.com",
+          "id": 14
+        },
+        {
+          "firstName": "Sujith",
+          "lastName": "s",
+          "contactNumber": "21321321321",
+          "email": "sujith@ideas2it.com",
+          "id": 20
+        }
+      ],
+      "jobCategories": [
+        {
+          "name": "Executive",
+          "id": 6
+        }
+      ],
+      "openinglocations": [],
+      "jobOpeningDetails": {
+        "salary": 123344,
+        "permFee": 1,
+        "contractStartDate": null,
+        "contractEndDate": null,
+        "payRate": null,
+        "billRate": null,
+        "payRateFreelance": null,
+        "salaryContract": null,
+        "freelanceStartDate": null,
+        "freelanceEndDate": null,
+        "fullTimeStartDate": null,
+        "fullTimeEndDate": null,
+        "contractASAP": null,
+        "fullTimeASAP": true,
+        "partTimeASAP": null,
+        "createdBy": 1,
+        "createdAt": "2018-03-01T13:01:23.751Z",
+        "modifiedBy": 1,
+        "modifiedAt": "2018-03-01T17:19:22.043Z",
+        "id": 379,
+        "jobOpeningId": 503
+      },
+      "company": {
+        "id": 28,
+        "name": "WABCO India Limited",
+        "domain": "http://www.wabco-auto.com/wabcoindia/home/",
+        "linkedinurl": null,
+        "address": null,
+        "state": "Dresden",
+        "pincode": "146521",
+        "description": null,
+        "country": "Germany",
+        "createdAt": "2018-01-30T14:08:49.684Z",
+        "modifiedBy": 1,
+        "modifiedAt": "2018-02-07T09:38:29.992Z",
+        "city": null,
+        "createdBy": 1
+      }
+    },
+    {
+      "id": 502,
+      "jobTitle": "Angular devs-12 - Clone - Clone",
+      "description": "<p style=\"text-align:left;\"><span style=\"color: rgb(26,188,156);\"><strong>hdhdfdhdhdhddfdhffhfhf</strong></span></p>",
+      "priority": "highPriority",
+      "vacancies": 12,
+      "type": "fullTime",
+      "startDate": null,
+      "endDate": null,
+      "status": "active",
+      "filters": {
+        "skills": [
+          {
+            "id": "AWFbO2nGXZQHLsI7Ljzt",
+            "name": "FIX"
+          },
+          {
+            "id": "AWFbO2nEXZQHLsI7Ljp1",
+            "name": "Bamboo"
+          }
+        ],
+        "location": [
+          {
+            "id": "AWEitJ_KXZQHLsI7HHT5",
+            "name": "Gabsheim"
+          }
+        ],
+        "preferredRadius": 0,
+        "keywords": "java",
+        "positions": [
+          {
+            "id": "AWF6aeccXZQHLsI7Nxv2",
+            "name": "Data Quality Manager"
+          },
+          {
+            "id": "AWF6aeccXZQHLsI7NxwN",
+            "name": "Front-end developer Java / .NET"
+          }
+        ],
+        "companies": {
+          "id": "539045",
+          "name": "! - 0 - 24 Stunden Schlüsseldienst A.K. e.K."
+        }
+      },
+      "createdBy": 1,
+      "createdAt": "2018-03-01T11:27:23.218Z",
+      "modifiedBy": 1,
+      "modifiedAt": "2018-03-01T17:32:56.029Z",
+      "companyId": 27,
+      "contactId": 41,
+      "statusCount": {
+        "selected": 0,
+        "shortlisted": 0,
+        "contacted": 0,
+        "hired": 0,
+        "rejected": 0,
+        "scheduled": 0
+      },
+      "recruiters": [
+        {
+          "firstName": "Praveen",
+          "lastName": "Raj",
+          "contactNumber": "9865412578",
+          "email": "praveenraj@ideas2it.com",
+          "id": 14
+        }
+      ],
+      "jobCategories": [],
+      "openinglocations": [],
+      "jobOpeningDetails": {
+        "salary": null,
+        "permFee": null,
+        "contractStartDate": null,
+        "contractEndDate": null,
+        "payRate": null,
+        "billRate": null,
+        "payRateFreelance": null,
+        "salaryContract": null,
+        "freelanceStartDate": null,
+        "freelanceEndDate": null,
+        "fullTimeStartDate": null,
+        "fullTimeEndDate": null,
+        "contractASAP": null,
+        "fullTimeASAP": null,
+        "partTimeASAP": null,
+        "createdBy": 1,
+        "createdAt": "2018-03-01T11:27:23.306Z",
+        "modifiedBy": 1,
+        "modifiedAt": "2018-03-01T17:32:56.086Z",
+        "id": 378,
+        "jobOpeningId": 502
+      },
+      "company": {
+        "id": 27,
+        "name": "German Express Shipping Agency (India) Pvt Ltd.",
+        "domain": "http://www.germanexpress.in/",
+        "linkedinurl": "",
+        "address": "test address",
+        "state": "Hamburg",
+        "pincode": "1454",
+        "description": "https://twitter.com/intent/tweet?text=India:%20Mechanized%20tunnelling%20for%20better%20infrastructure%20-%20Herrenknecht%20AG&url=https%3A%2F%2Fwww.herrenknecht.com%2Fen%2Fmedia%2Fpress-information%2F2012%2Findia-mechanized-tunnelling-for-better-infrastructure.html%23.WnB8SwfQqnY.twitter&related=",
+        "country": "Germany",
+        "createdAt": "2018-01-30T14:05:55.576Z",
+        "modifiedBy": 1,
+        "modifiedAt": "2018-01-30T14:06:52.038Z",
+        "city": "test city",
+        "createdBy": 1
+      }
+    },
+    {
+      "id": 501,
+      "jobTitle": "Angular devs-12 - Clone",
+      "description": "<p style=\"text-align:left;\"><span style=\"color: rgb(26,188,156);\"><strong>hdhdfdhdhdhddfdhffhfhf</strong></span></p>",
+      "priority": "highPriority",
+      "vacancies": 12,
+      "type": "fullTime",
+      "startDate": null,
+      "endDate": null,
+      "status": "active",
+      "filters": {
+        "skills": [
+          {
+            "id": "AWFbO2nGXZQHLsI7Ljzt",
+            "name": "FIX"
+          },
+          {
+            "id": "AWFbO2nEXZQHLsI7Ljp1",
+            "name": "Bamboo"
+          }
+        ],
+        "location": [
+          {
+            "id": "AWEitJ_KXZQHLsI7HHT5",
+            "name": "Gabsheim"
+          }
+        ],
+        "preferredRadius": 0,
+        "positions": [
+          {
+            "id": "AWF6aeccXZQHLsI7Nxv2",
+            "name": "Data Quality Manager"
+          },
+          {
+            "id": "AWF6aeccXZQHLsI7NxwN",
+            "name": "Front-end developer Java / .NET"
+          }
+        ],
+        "companies": {
+          "id": "538989",
+          "name": "! 0 - 0 ! A.ABEX Dienstleistungen GmbH"
+        }
+      },
+      "createdBy": 1,
+      "createdAt": "2018-03-01T11:04:45.534Z",
+      "modifiedBy": 1,
+      "modifiedAt": "2018-03-02T05:39:40.160Z",
+      "companyId": 27,
+      "contactId": 41,
+      "statusCount": {
+        "selected": 0,
+        "shortlisted": 0,
+        "contacted": 0,
+        "hired": 0,
+        "rejected": 0,
+        "scheduled": 0
+      },
+      "recruiters": [
+        {
+          "firstName": "Praveen",
+          "lastName": "Raj",
+          "contactNumber": "9865412578",
+          "email": "praveenraj@ideas2it.com",
+          "id": 14
+        }
+      ],
+      "jobCategories": [],
+      "openinglocations": [],
+      "jobOpeningDetails": {
+        "salary": null,
+        "permFee": null,
+        "contractStartDate": null,
+        "contractEndDate": null,
+        "payRate": null,
+        "billRate": null,
+        "payRateFreelance": null,
+        "salaryContract": null,
+        "freelanceStartDate": null,
+        "freelanceEndDate": null,
+        "fullTimeStartDate": null,
+        "fullTimeEndDate": null,
+        "contractASAP": null,
+        "fullTimeASAP": null,
+        "partTimeASAP": null,
+        "createdBy": 1,
+        "createdAt": "2018-03-01T11:04:45.631Z",
+        "modifiedBy": 1,
+        "modifiedAt": "2018-03-02T05:39:40.236Z",
+        "id": 377,
+        "jobOpeningId": 501
+      },
+      "company": {
+        "id": 27,
+        "name": "German Express Shipping Agency (India) Pvt Ltd.",
+        "domain": "http://www.germanexpress.in/",
+        "linkedinurl": "",
+        "address": "test address",
+        "state": "Hamburg",
+        "pincode": "1454",
+        "description": "https://twitter.com/intent/tweet?text=India:%20Mechanized%20tunnelling%20for%20better%20infrastructure%20-%20Herrenknecht%20AG&url=https%3A%2F%2Fwww.herrenknecht.com%2Fen%2Fmedia%2Fpress-information%2F2012%2Findia-mechanized-tunnelling-for-better-infrastructure.html%23.WnB8SwfQqnY.twitter&related=",
+        "country": "Germany",
+        "createdAt": "2018-01-30T14:05:55.576Z",
+        "modifiedBy": 1,
+        "modifiedAt": "2018-01-30T14:06:52.038Z",
+        "city": "test city",
+        "createdBy": 1
+      }
+    },
+    {
+      "id": 500,
+      "jobTitle": "Angular devs-12",
+      "description": "<p style=\"text-align:left;\"><span style=\"color: rgb(26,188,156);\"><strong>hdhdfdhdhdhddfdhffhfhf</strong></span></p>",
+      "priority": "highPriority",
+      "vacancies": 12,
+      "type": "fullTime",
+      "startDate": null,
+      "endDate": null,
+      "status": "active",
+      "filters": {
+        "skills": [
+          {
+            "id": "AWFbO2nGXZQHLsI7Ljzt",
+            "name": "FIX"
+          },
+          {
+            "id": "AWFbO2nEXZQHLsI7Ljp1",
+            "name": "Bamboo"
+          }
+        ],
+        "location": [
+          {
+            "id": "AWEitJ_KXZQHLsI7HHT5",
+            "name": "Gabsheim"
+          }
+        ],
+        "preferredRadius": 0,
+        "positions": [
+          {
+            "id": "AWF6aeccXZQHLsI7Nxv2",
+            "name": "Data Quality Manager"
+          },
+          {
+            "id": "AWF6aeccXZQHLsI7NxwN",
+            "name": "Front-end developer Java / .NET"
+          }
+        ]
+      },
+      "createdBy": 1,
+      "createdAt": "2018-03-01T05:50:04.847Z",
+      "modifiedBy": 1,
+      "modifiedAt": "2018-03-01T06:21:38.543Z",
+      "companyId": 27,
+      "contactId": 41,
+      "statusCount": {
+        "selected": 3,
+        "shortlisted": 0,
+        "contacted": 0,
+        "hired": 0,
+        "rejected": 0,
+        "scheduled": 1
+      },
+      "recruiters": [
+        {
+          "firstName": "Praveen",
+          "lastName": "Raj",
+          "contactNumber": "9865412578",
+          "email": "praveenraj@ideas2it.com",
+          "id": 14
+        }
+      ],
+      "jobCategories": [],
+      "openinglocations": [
+        {
+          "name": "Quierschied",
+          "createdBy": 1,
+          "createdAt": "2018-03-01T05:50:04.885Z",
+          "modifiedBy": 1,
+          "modifiedAt": "2018-03-01T06:21:38.625Z",
+          "id": 216,
+          "jobId": 500
+        }
+      ],
+      "jobOpeningDetails": {
+        "salary": null,
+        "permFee": null,
+        "contractStartDate": null,
+        "contractEndDate": null,
+        "payRate": null,
+        "billRate": null,
+        "payRateFreelance": null,
+        "salaryContract": null,
+        "freelanceStartDate": null,
+        "freelanceEndDate": null,
+        "fullTimeStartDate": null,
+        "fullTimeEndDate": null,
+        "contractASAP": null,
+        "fullTimeASAP": null,
+        "partTimeASAP": null,
+        "createdBy": 1,
+        "createdAt": "2018-03-01T05:50:04.906Z",
+        "modifiedBy": 1,
+        "modifiedAt": "2018-03-01T06:21:38.636Z",
+        "id": 376,
+        "jobOpeningId": 500
+      },
+      "company": {
+        "id": 27,
+        "name": "German Express Shipping Agency (India) Pvt Ltd.",
+        "domain": "http://www.germanexpress.in/",
+        "linkedinurl": "",
+        "address": "test address",
+        "state": "Hamburg",
+        "pincode": "1454",
+        "description": "https://twitter.com/intent/tweet?text=India:%20Mechanized%20tunnelling%20for%20better%20infrastructure%20-%20Herrenknecht%20AG&url=https%3A%2F%2Fwww.herrenknecht.com%2Fen%2Fmedia%2Fpress-information%2F2012%2Findia-mechanized-tunnelling-for-better-infrastructure.html%23.WnB8SwfQqnY.twitter&related=",
+        "country": "Germany",
+        "createdAt": "2018-01-30T14:05:55.576Z",
+        "modifiedBy": 1,
+        "modifiedAt": "2018-01-30T14:06:52.038Z",
+        "city": "test city",
+        "createdBy": 1
+      }
+    },
+    {
+      "id": 499,
+      "jobTitle": "Angular devs",
+      "description": "<p><strong>Required qualifications in this role for angular: </strong><br></p>\n<p>*Min 3+ Years of Experience in Web Development based on <strong>AngularJS</strong> &amp; MongoDB<br>*Preferable with <strong>AngularJs</strong> 4.0<br>* <strong>Primary Skill: </strong>*<strong>Angular</strong> <strong>JS</strong>,  Node<strong>Js</strong>, Meteor, MongoDB, <strong>JS</strong>ON, Bootstrap<br>*Good exposure to front end technologies (<strong>AngularJS</strong> , Meteor, Node<strong>Js</strong>, Bootstrap, JQuery)<br>*Good Knowledge on MongoDB database <br>*Experience in building web application or enhancing a existing application<br></p>\n<p>Kindly send your resume to vennila.m@two95intl.com </p>\n<p><em>Salary:</em>INR 3,00,000 - 7,00,000 P.A.</p>\n<p><em>Industry:</em><a href=\"https://www.naukri.com/it-software-jobs\" target=\"_self\">IT-Software</a> / <a href=\"https://www.naukri.com/software-services-jobs\" target=\"_self\">Software Services</a></p>\n<p><em>Functional Area:</em><a href=\"https://www.naukri.com/it-software-ecommerce-jobs\" target=\"_self\">IT Software - eCommerce </a>, <a href=\"https://www.naukri.com/internet-technologies-jobs\" target=\"_self\">Internet Technologies</a></p>\n<p><em>Role Category:</em>Programming &amp; Design</p>\n<p><em>Role:</em>Software Developer</p>\n<p><em>Employment Type:</em>Permanent Job, Full Time</p>",
+      "priority": "highPriority",
+      "vacancies": 12,
+      "type": "partTime",
+      "startDate": null,
+      "endDate": null,
+      "status": "active",
+      "filters": {
+        "preferredRadius": 0,
+        "experience": [
+          5,
+          15
+        ]
+      },
+      "createdBy": 1,
+      "createdAt": "2018-03-01T05:48:25.056Z",
+      "modifiedBy": 1,
+      "modifiedAt": "2018-03-01T06:16:33.393Z",
+      "companyId": 25,
+      "contactId": 39,
+      "statusCount": {
+        "selected": 3,
+        "shortlisted": 0,
+        "contacted": 0,
+        "hired": 0,
+        "rejected": 0,
+        "scheduled": 0
+      },
+      "recruiters": [
+        {
+          "firstName": "Praveen",
+          "lastName": "Raj",
+          "contactNumber": "9865412578",
+          "email": "praveenraj@ideas2it.com",
+          "id": 14
+        }
+      ],
+      "jobCategories": [],
+      "openinglocations": [
+        {
+          "name": "Quierschied",
+          "createdBy": 1,
+          "createdAt": "2018-03-01T05:48:25.120Z",
+          "modifiedBy": 1,
+          "modifiedAt": "2018-03-01T06:16:33.446Z",
+          "id": 215,
+          "jobId": 499
+        }
+      ],
+      "jobOpeningDetails": {
+        "salary": null,
+        "permFee": null,
+        "contractStartDate": null,
+        "contractEndDate": null,
+        "payRate": null,
+        "billRate": null,
+        "payRateFreelance": null,
+        "salaryContract": null,
+        "freelanceStartDate": null,
+        "freelanceEndDate": null,
+        "fullTimeStartDate": null,
+        "fullTimeEndDate": null,
+        "contractASAP": null,
+        "fullTimeASAP": null,
+        "partTimeASAP": null,
+        "createdBy": 1,
+        "createdAt": "2018-03-01T05:48:25.157Z",
+        "modifiedBy": 1,
+        "modifiedAt": "2018-03-01T06:16:33.458Z",
+        "id": 375,
+        "jobOpeningId": 499
+      },
+      "company": {
+        "id": 25,
+        "name": "Molex",
+        "domain": "http://www.google.co.in",
+        "linkedinurl": "https://www.linkedin.com/feed",
+        "address": "Street Address 1",
+        "state": "Berlin",
+        "pincode": "21450",
+        "description": "An industry-standard interface combined with full-length cable shielding provides superior signal performance and reduced EMI",
+        "country": "Germany",
+        "createdAt": "2018-01-25T14:14:46.927Z",
+        "modifiedBy": 1,
+        "modifiedAt": "2018-02-21T06:27:09.490Z",
+        "city": "TestCity",
+        "createdBy": 1
+      }
+    },
+    {
+      "id": 498,
+      "jobTitle": "React Openings",
+      "description": null,
+      "priority": "highPriority",
+      "vacancies": 15,
+      "type": "partTime",
+      "startDate": null,
+      "endDate": null,
+      "status": "active",
+      "filters": {
+        "skills": [
+          {
+            "id": "AWFbO2nCXZQHLsI7Ljgo",
+            "name": "JAVA"
+          },
+          {
+            "id": "AWFbO2nCXZQHLsI7Ljgp",
+            "name": "Javascript"
+          }
+        ],
+        "location": [],
+        "preferredRadius": 0,
+        "keywords": "java OR javascript",
+        "experience": [
+          0,
+          7
+        ],
+        "positions": [
+          {
+            "id": "AWF6aeccXZQHLsI7NxwE",
+            "name": "Developer"
+          }
+        ],
+        "companies": {
+          "id": "539045",
+          "name": "! - 0 - 24 Stunden Schlüsseldienst A.K. e.K."
+        },
+        "source": []
+      },
+      "createdBy": 1,
+      "createdAt": "2018-03-01T05:44:32.748Z",
+      "modifiedBy": 1,
+      "modifiedAt": "2018-03-02T05:51:09.932Z",
+      "companyId": 31,
+      "contactId": 53,
+      "statusCount": {
+        "selected": 0,
+        "shortlisted": 0,
+        "contacted": 0,
+        "hired": 0,
+        "rejected": 0,
+        "scheduled": 0
+      },
+      "recruiters": [
+        {
+          "firstName": "akkkshay",
+          "lastName": null,
+          "contactNumber": null,
+          "email": "akshay@ideas2it.com",
+          "id": 42
+        }
+      ],
+      "jobCategories": [
+        {
+          "name": "Design",
+          "id": 7
+        }
+      ],
+      "openinglocations": [
+        {
+          "name": "Abstatt",
+          "createdBy": 1,
+          "createdAt": "2018-03-01T11:39:38.441Z",
+          "modifiedBy": 1,
+          "modifiedAt": "2018-03-02T05:51:09.985Z",
+          "id": 217,
+          "jobId": 498
+        }
+      ],
+      "jobOpeningDetails": {
+        "salary": null,
+        "permFee": null,
+        "contractStartDate": null,
+        "contractEndDate": null,
+        "payRate": null,
+        "billRate": 1212,
+        "payRateFreelance": 12,
+        "salaryContract": null,
+        "freelanceStartDate": null,
+        "freelanceEndDate": null,
+        "fullTimeStartDate": null,
+        "fullTimeEndDate": null,
+        "contractASAP": null,
+        "fullTimeASAP": null,
+        "partTimeASAP": true,
+        "createdBy": 1,
+        "createdAt": "2018-03-01T05:44:32.835Z",
+        "modifiedBy": 1,
+        "modifiedAt": "2018-03-02T05:51:10.006Z",
+        "id": 374,
+        "jobOpeningId": 498
+      },
+      "company": {
+        "id": 31,
+        "name": "Orange",
+        "domain": null,
+        "linkedinurl": null,
+        "address": "Street Address",
+        "state": "Frankfurt",
+        "pincode": "564987987",
+        "description": "Company Desc",
+        "country": "Germany",
+        "createdAt": "2018-02-03T09:51:46.905Z",
+        "modifiedBy": 1,
+        "modifiedAt": "2018-02-15T10:39:33.174Z",
+        "city": "Berlin",
+        "createdBy": 1
+      }
+    },
+    {
+      "id": 497,
+      "jobTitle": "Opening-34",
+      "description": null,
+      "priority": "veryLowPriority",
+      "vacancies": 111,
+      "type": "fullTime",
+      "startDate": null,
+      "endDate": null,
+      "status": "active",
+      "filters": {
+        "preferredRadius": 0,
+        "positions": [
+          {
+            "id": "AWF6aeccXZQHLsI7NxwR",
+            "name": "Head of IT"
+          }
+        ],
+        "companies": {
+          "id": "539045",
+          "name": "! - 0 - 24 Stunden Schlüsseldienst A.K. e.K."
+        }
+      },
+      "createdBy": 1,
+      "createdAt": "2018-02-28T21:07:02.615Z",
+      "modifiedBy": 1,
+      "modifiedAt": "2018-03-01T11:23:52.580Z",
+      "companyId": 26,
+      "contactId": 40,
+      "statusCount": {
+        "selected": 0,
+        "shortlisted": 0,
+        "contacted": 0,
+        "hired": 0,
+        "rejected": 0,
+        "scheduled": 0
+      },
+      "recruiters": [
+        {
+          "firstName": "kosalram",
+          "lastName": "R",
+          "contactNumber": "8903827395",
+          "email": "kosalram@ideas2it.com",
+          "id": 27
+        },
+        {
+          "firstName": "akkkshay",
+          "lastName": null,
+          "contactNumber": null,
+          "email": "akshay@ideas2it.com",
+          "id": 42
+        }
+      ],
+      "jobCategories": [
+        {
+          "name": "HR",
+          "id": 3
+        }
+      ],
+      "openinglocations": [
+        {
+          "name": "Abtsgmuend",
+          "createdBy": 1,
+          "createdAt": "2018-02-28T21:07:02.668Z",
+          "modifiedBy": 1,
+          "modifiedAt": "2018-03-01T11:23:52.675Z",
+          "id": 214,
+          "jobId": 497
+        }
+      ],
+      "jobOpeningDetails": {
+        "salary": null,
+        "permFee": null,
+        "contractStartDate": null,
+        "contractEndDate": null,
+        "payRate": null,
+        "billRate": null,
+        "payRateFreelance": null,
+        "salaryContract": null,
+        "freelanceStartDate": null,
+        "freelanceEndDate": null,
+        "fullTimeStartDate": null,
+        "fullTimeEndDate": null,
+        "contractASAP": null,
+        "fullTimeASAP": null,
+        "partTimeASAP": null,
+        "createdBy": 1,
+        "createdAt": "2018-02-28T21:07:02.700Z",
+        "modifiedBy": 1,
+        "modifiedAt": "2018-03-01T11:23:52.696Z",
+        "id": 373,
+        "jobOpeningId": 497
+      },
+      "company": {
+        "id": 26,
+        "name": "SQS India BFSI Limited",
+        "domain": "https://www.sqs.com/en/index.php",
+        "linkedinurl": "https://www.linkedin.com/company/sqs-group",
+        "address": "Street 101",
+        "state": "Berlin",
+        "pincode": "1445",
+        "description": null,
+        "country": "Germany",
+        "createdAt": "2018-01-30T14:03:41.436Z",
+        "modifiedBy": null,
+        "modifiedAt": null,
+        "city": "Dream Road",
+        "createdBy": 1
+      }
+    },
+    {
+      "id": 496,
+      "jobTitle": "Test Data0011",
+      "description": "",
+      "priority": "highPriority",
+      "vacancies": 1,
+      "type": "fullTime",
+      "startDate": null,
+      "endDate": null,
+      "status": "active",
+      "filters": {
+        "skills": [
+          {
+            "id": "AWFbO2nCXZQHLsI7Ljgo",
+            "name": "JAVA"
+          }
+        ],
+        "preferredRadius": 0,
+        "keywords": "java",
+        "companies": {
+          "id": "539045",
+          "name": "! - 0 - 24 Stunden Schlüsseldienst A.K. e.K."
+        }
+      },
+      "createdBy": 1,
+      "createdAt": "2018-02-28T07:05:19.287Z",
+      "modifiedBy": 1,
+      "modifiedAt": "2018-02-28T08:14:09.173Z",
+      "companyId": 26,
+      "contactId": 40,
+      "statusCount": {
+        "selected": 0,
+        "shortlisted": 0,
+        "contacted": 0,
+        "hired": 0,
+        "rejected": 0,
+        "scheduled": 0
+      },
+      "recruiters": [
+        {
+          "firstName": "Sujith",
+          "lastName": "s",
+          "contactNumber": "21321321321",
+          "email": "sujith@ideas2it.com",
+          "id": 20
+        }
+      ],
+      "jobCategories": [
+        {
+          "name": "HR",
+          "id": 3
+        }
+      ],
+      "openinglocations": [],
+      "jobOpeningDetails": {
+        "salary": null,
+        "permFee": null,
+        "contractStartDate": null,
+        "contractEndDate": null,
+        "payRate": null,
+        "billRate": null,
+        "payRateFreelance": null,
+        "salaryContract": null,
+        "freelanceStartDate": null,
+        "freelanceEndDate": null,
+        "fullTimeStartDate": null,
+        "fullTimeEndDate": null,
+        "contractASAP": null,
+        "fullTimeASAP": null,
+        "partTimeASAP": null,
+        "createdBy": 1,
+        "createdAt": "2018-02-28T07:05:19.440Z",
+        "modifiedBy": 1,
+        "modifiedAt": "2018-02-28T08:14:09.292Z",
+        "id": 372,
+        "jobOpeningId": 496
+      },
+      "company": {
+        "id": 26,
+        "name": "SQS India BFSI Limited",
+        "domain": "https://www.sqs.com/en/index.php",
+        "linkedinurl": "https://www.linkedin.com/company/sqs-group",
+        "address": "Street 101",
+        "state": "Berlin",
+        "pincode": "1445",
+        "description": null,
+        "country": "Germany",
+        "createdAt": "2018-01-30T14:03:41.436Z",
+        "modifiedBy": null,
+        "modifiedAt": null,
+        "city": "Dream Road",
+        "createdBy": 1
+      }
+    },
+    {
+      "id": 495,
+      "jobTitle": "saturday -Clonee",
+      "description": "",
+      "priority": "lowPriority",
+      "vacancies": 4,
+      "type": "contract",
+      "startDate": null,
+      "endDate": null,
+      "status": "active",
+      "filters": {
+        "preferredRadius": 0,
+        "companies": {
+          "id": "2892391",
+          "name": "Midland IT GmbH"
+        }
+      },
+      "createdBy": 1,
+      "createdAt": "2018-02-27T07:19:58.533Z",
+      "modifiedBy": 1,
+      "modifiedAt": "2018-02-28T13:52:29.305Z",
+      "companyId": 27,
+      "contactId": 41,
+      "statusCount": {
+        "selected": 2,
+        "shortlisted": 0,
+        "contacted": 0,
+        "hired": 0,
+        "rejected": 0,
+        "scheduled": 0
+      },
+      "recruiters": [
+        {
+          "firstName": "Alfred",
+          "lastName": "Ig",
+          "contactNumber": "+49 859856",
+          "email": "alfred@ideas2it.com",
+          "id": 16
+        }
+      ],
+      "jobCategories": [],
+      "openinglocations": [],
+      "jobOpeningDetails": {
+        "salary": null,
+        "permFee": null,
+        "contractStartDate": null,
+        "contractEndDate": null,
+        "payRate": null,
+        "billRate": null,
+        "payRateFreelance": null,
+        "salaryContract": null,
+        "freelanceStartDate": null,
+        "freelanceEndDate": null,
+        "fullTimeStartDate": null,
+        "fullTimeEndDate": null,
+        "contractASAP": true,
+        "fullTimeASAP": null,
+        "partTimeASAP": null,
+        "createdBy": 1,
+        "createdAt": "2018-02-27T07:19:58.653Z",
+        "modifiedBy": 1,
+        "modifiedAt": "2018-02-28T13:52:29.375Z",
+        "id": 371,
+        "jobOpeningId": 495
+      },
+      "company": {
+        "id": 27,
+        "name": "German Express Shipping Agency (India) Pvt Ltd.",
+        "domain": "http://www.germanexpress.in/",
+        "linkedinurl": "",
+        "address": "test address",
+        "state": "Hamburg",
+        "pincode": "1454",
+        "description": "https://twitter.com/intent/tweet?text=India:%20Mechanized%20tunnelling%20for%20better%20infrastructure%20-%20Herrenknecht%20AG&url=https%3A%2F%2Fwww.herrenknecht.com%2Fen%2Fmedia%2Fpress-information%2F2012%2Findia-mechanized-tunnelling-for-better-infrastructure.html%23.WnB8SwfQqnY.twitter&related=",
+        "country": "Germany",
+        "createdAt": "2018-01-30T14:05:55.576Z",
+        "modifiedBy": 1,
+        "modifiedAt": "2018-01-30T14:06:52.038Z",
+        "city": "test city",
+        "createdBy": 1
+      }
+    },
+    {
+      "id": 494,
+      "jobTitle": "Asdas -Clone -145455545 -666 - Clone",
+      "description": "<p><strong>Java> <em>dev</em> <ins>required</ins></p>\nhhfghghgfdgdfgdfgdjjj",
+      "priority": "veryHighPriority",
+      "vacancies": 999,
+      "type": "fullTime",
+      "startDate": "2018-02-28T12:10:47.876Z",
+      "endDate": "2018-03-01T09:14:07.803Z",
+      "status": "closed",
+      "filters": {
+        "skills": [
+          {
+            "id": "AWFbO2nCXZQHLsI7Ljgo",
+            "name": "JAVA"
+          }
+        ],
+        "location": [],
+        "preferredRadius": 0,
+        "keywords": "",
+        "experience": [
+          0,
+          30
+        ],
+        "positions": [
+          {
+            "id": "AWF6aeccXZQHLsI7Nxya",
+            "name": "SQL Database Developer"
+          }
+        ],
+        "companies": {
+          "id": "538989",
+          "name": "! 0 - 0 ! A.ABEX Dienstleistungen GmbH"
+        },
+        "source": []
+      },
+      "createdBy": 1,
+      "createdAt": "2018-02-27T06:51:17.747Z",
+      "modifiedBy": null,
+      "modifiedAt": "2018-03-01T23:00:00.233Z",
+      "companyId": 27,
+      "contactId": 41,
+      "statusCount": {
+        "selected": 1,
+        "shortlisted": 0,
+        "contacted": 0,
+        "hired": 0,
+        "rejected": 0,
+        "scheduled": 0
+      },
+      "recruiters": [
+        {
+          "firstName": "kosalram",
+          "lastName": "R",
+          "contactNumber": "8903827395",
+          "email": "kosalram@ideas2it.com",
+          "id": 27
+        }
+      ],
+      "jobCategories": [
+        {
+          "name": "Sales",
+          "id": 2
+        }
+      ],
+      "openinglocations": [],
+      "jobOpeningDetails": {
+        "salary": null,
+        "permFee": null,
+        "contractStartDate": null,
+        "contractEndDate": null,
+        "payRate": null,
+        "billRate": null,
+        "payRateFreelance": null,
+        "salaryContract": null,
+        "freelanceStartDate": null,
+        "freelanceEndDate": null,
+        "fullTimeStartDate": null,
+        "fullTimeEndDate": null,
+        "contractASAP": null,
+        "fullTimeASAP": null,
+        "partTimeASAP": null,
+        "createdBy": 1,
+        "createdAt": "2018-02-27T06:51:17.812Z",
+        "modifiedBy": 1,
+        "modifiedAt": "2018-03-01T05:39:48.715Z",
+        "id": 370,
+        "jobOpeningId": 494
+      },
+      "company": {
+        "id": 27,
+        "name": "German Express Shipping Agency (India) Pvt Ltd.",
+        "domain": "http://www.germanexpress.in/",
+        "linkedinurl": "",
+        "address": "test address",
+        "state": "Hamburg",
+        "pincode": "1454",
+        "description": "https://twitter.com/intent/tweet?text=India:%20Mechanized%20tunnelling%20for%20better%20infrastructure%20-%20Herrenknecht%20AG&url=https%3A%2F%2Fwww.herrenknecht.com%2Fen%2Fmedia%2Fpress-information%2F2012%2Findia-mechanized-tunnelling-for-better-infrastructure.html%23.WnB8SwfQqnY.twitter&related=",
+        "country": "Germany",
+        "createdAt": "2018-01-30T14:05:55.576Z",
+        "modifiedBy": 1,
+        "modifiedAt": "2018-01-30T14:06:52.038Z",
+        "city": "test city",
+        "createdBy": 1
+      }
+    }
+  ],
+  "totalCount": "227"
+}

@@ -1,0 +1,231 @@
+import { restrictMaxValue, convertToInteger } from '../utils/validation';
+import i18n from '../i18n';
+
+const getFilterConfig = self => {
+  const config = {
+    title: 'Profile Filter',
+    fields: {
+      // skills: {
+      //   label: 'SKILL',
+      //   name: 'skills',
+      //   valueField: 'id',
+      //   textField: 'name',
+      //   handleOnChange: self.handleOnSkillChange,
+      //   data: self.props.skillList,
+      //   isFilter: false,
+      //   isOpen: self.state.isSkillOpen,
+      //   closeDropdown: true,
+      //   handleOnSelect: self.handleOnSkillSelect,
+      //   placeholder: 'START_TYPING_TO_ADD_THE_SKILL'
+      // },
+      location: {
+        label: 'SOURCING_LOCATION',
+        name: 'location',
+        valueField: 'id',
+        textField: 'displayName',
+        onChange: self.dispatchRadius,
+        handleOnChange: self.handleOnLocationChange,
+        data: self.props.locationList,
+        defaultSelectValue: self.props.selectedLocation,
+        closeDropdown: true,
+        isOpen: self.state.isLocationOpen,
+        handleOnSelect: self.handleOnLocationSelect,
+        placeholder: 'START_TYPING_TO_ADD_THE_LOCATION'
+      },
+      preferredRadius: {
+        label: 'LOCATION_RADIUS_(IN_KM)',
+        name: 'preferredRadius',
+        placeholder: 'ENTER_LOCATION_RADIUS',
+        type: 'number',
+        normalize: restrictMaxValue(1000),
+        isInfo: true,
+        infoText: 'MAKE_SURE_YOU_SELECT_LOCATION',
+        disabled: self.state.isRadDisabled,
+        parse: convertToInteger
+      },
+      experience: {
+        label: 'EXPERIENCE_(IN_YEARS)',
+        name: 'experience',
+        min: 0,
+        max: 35,
+        defaultValue: [3, 20],
+        tipFormatter: val => val === 35 ? '35+' : val,
+        onAfterChange: self.onAfterSliderChange,
+        marks: {
+          0: '0',
+          5: '5',
+          10: '10',
+          15: '15',
+          20: '20',
+          25: '25',
+          30: '30',
+          35: '35+'
+        }
+      },
+      positions: {
+        label: 'POSITION',
+        name: 'positions',
+        valueField: 'id',
+        textField: 'name',
+        handleOnChange: self.handleOnPositionChange,
+        data: self.props.positionList,
+        isFilter: false,
+        dropUp: false,
+        isOpen: self.state.isPositionOpen,
+        closeDropdown: true,
+        handleOnSelect: self.handleOnPositionSelect,
+        placeholder: 'START_TYPING_TO_ADD_THE_POSITION'
+      },
+      // companies: {
+      //   name: 'companies',
+      //   valueKey: 'id',
+      //   labelKey: 'name',
+      //   selectedOption: self.state.selectedOption || self.props.values.companies,
+      //   handleOnChange: self.handleChange,
+      //   handleInputKeyDown: self.handleInputKeyDown,
+      //   handleOnInputChange: self.handleOnCompanyChange,
+      //   companyList: self.props.companyList,
+      //   placeholder: 'Select Company'
+      // },
+      // companies: {
+      //   label: 'Company',
+      //   name: 'companies',
+      //   valueField: 'id',
+      //   textField: 'name',
+      //   handleOnChange: self.handleOnCompanyChange,
+      //   data: self.props.companyList,
+      //   isFilter: false,
+      //   dropUp: true,
+      //   placeholder: 'Any Company'
+      // },
+      source: {
+        label: 'SOURCE',
+        name: 'source',
+        valueField: 'value',
+        textField: 'id',
+        data: self.props.sourceList,
+        // isOpen: self.state.isSourceOpen,
+        handleOnChange: self.handleOnSourceChange,
+        // closeDropdown: true,
+        isFilter: true,
+        dropUp: true,
+        placeholder: 'SELECT_SOURCE',
+        ignoreFilter: true
+      },
+      skills: {
+        label: 'SKILLS',
+        name: 'skills',
+        valueField: self.state.skillStr || '',
+        handleOnChange: self.handleOnSkillInputChange,
+        onFocusout: self.onBlurSkillInput,
+        data: self.getSkillsList,
+        placeholder: 'START_TYPING_TO_ADD_THE_SKILL',
+        // isInfo: true,
+        // infoText: 'OPEN_BOOLEAN_DROPDOWN'
+      },
+      // keywords: {
+      //   label: 'KEYWORDS',
+      //   name: 'keywords',
+      //   valueField: self.state.keywords,
+      //   // valueField: (self.props.values && self.props.values.keywords) || '',
+      //   // data: self.state.conjunctions,
+      //   onFocusout: self.handleFocusout,
+      //   data: self.getKeywordList,
+      //   placeholder: 'SEARCH_KEYWORD',
+      //   handleOnChange: self.handleOnKeywordChange
+      // },
+      language: {
+        label: 'LANGUAGE',
+        name: 'languages',
+        valueField: self.state.languageStr || '',
+        handleOnChange: self.handleOnLanguageInputChange,
+        onFocusout: self.onBlurLanguageInput,
+        data: self.getLanguagesList,
+        placeholder: 'START_TYPING_TO_ADD_THE_LANGUAGE',
+        // isInfo: true,
+        // infoText: 'OPEN_BOOLEAN_DROPDOWN'
+      },
+      skillrating: {
+        label: 'SKILL',
+        name: 'skillRating',
+        isRequired: false,
+        starCount: 5,
+        starSelect: self.state.skillRated,
+        isHalf: false,
+        changeFilter: 1,
+        handleOnChange: self.handleRatingOnChange,
+        errorMessage: i18n.t('validationMessage.REQUIRED'),
+      },
+      mobilityrating: {
+        label: 'CHANGE_PROBABILITY',
+        name: 'mobilityRating',
+        isRequired: false,
+        starCount: 5,
+        starSelect: self.state.mobilityRated,
+        isHalf: false,
+        changeFilter: 2,
+        handleOnChange: self.handleRatingOnChange,
+        errorMessage: i18n.t('validationMessage.REQUIRED'),
+      },
+      companyculturerating: {
+        label: 'COMPANY_CULTURE',
+        name: 'companyCultureRating',
+        isRequired: false,
+        starCount: 5,
+        starSelect: self.state.companyCultureRated,
+        isHalf: false,
+        changeFilter: 3,
+        handleOnChange: self.handleRatingOnChange,
+        errorMessage: i18n.t('validationMessage.REQUIRED'),
+      },
+      pedigreerating: {
+        label: 'PEDIGREE',
+        name: 'pedigreeRating',
+        isRequired: false,
+        starCount: 5,
+        starSelect: self.state.pedigreeRated,
+        isHalf: false,
+        changeFilter: 4,
+        handleOnChange: self.handleRatingOnChange,
+        errorMessage: i18n.t('validationMessage.REQUIRED'),
+      },
+      contactrating: {
+        label: 'CONTACT',
+        name: 'contactRating',
+        isRequired: false,
+        starCount: 5,
+        starSelect: self.state.contactRated,
+        isHalf: false,
+        changeFilter: 5,
+        handleOnChange: self.handleRatingOnChange,
+        errorMessage: i18n.t('validationMessage.REQUIRED'),
+      },
+      noticePeriod: {
+        name: 'noticePeriod',
+        placeholder: 'NOTICE_PERIOD',
+        type: 'number',
+        normalize: restrictMaxValue(100),
+        parse: convertToInteger,
+        onChange: self.handleOnNoticePeriod,
+        className: 'height_40'
+      },
+      noticePeriodType: {
+        name: 'noticePeriodType',
+        valueField: 'id',
+        textField: 'name',
+        data: [{ id: 'weeks', name: i18n.t('WEEKS') },
+          { id: 'months', name: i18n.t('MONTHS') }],
+        isFilter: false,
+        closeDropdown: true,
+        handleOnSelect: self.handleOnNoticePeriodSelect,
+        handleOnChange: self.handleNoticePeriodChange,
+        placeholder: 'TYPE',
+        ignoreFilter: true,
+        isOpen: self.state.isNoticeTypeOpen,
+      }
+    }
+  };
+  return config;
+};
+
+export default getFilterConfig;

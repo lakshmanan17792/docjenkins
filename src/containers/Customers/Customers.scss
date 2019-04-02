@@ -1,0 +1,628 @@
+@import './../../theme/variables.scss';
+
+$primary-color:#172B4D; //#02B875;
+$secondary-color: #1F9AFF;
+$light-grey-background: #F4F5F7;
+$dark-grey-background: #EAECF0;
+$text-color: #172B4D;
+$subtle-text-color: #5E6C84;
+$error-color: #FF5766;
+$primary-btn-color: #02B875;
+$secondary-btn-color: #02B875;
+$table-border-color: $border-color;
+$page-number-color: #284255;
+
+.companyContainer {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  hr {
+    margin-top: 10px;
+  }
+  .noMargin {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+  .companyFilter {
+    height: calc(100vh - 54px);
+    background-color: $white;
+    padding-top: 20px;
+    border-right: 1px solid $border-color;
+    .filterTitle {
+      font-size: 16px;
+      font-weight: 500;
+      color: $text-color;
+      margin: 0;
+      position: relative;
+      top: -4px;
+    }
+    .clear {
+      font-size: 13px;
+      font-weight: 500;
+      color: $error-color;
+      float: right;
+      cursor: pointer;
+      margin-top: 3px;
+    }
+    .hr_separation {
+      margin-left: -15px;
+      margin-right: -15px;
+      //border: 0.5px solid $border-color;
+      border-color: $border-color;
+    }
+    .filterItem {
+      .sortCompanyLabel {
+        font-size: 14px;
+        color: $subtle-text-color;
+        margin-bottom: 10px;
+      }
+      .companyfilter {
+        color : black !important;
+        text-align: left;
+        min-width: 300px;
+        font-weight: 300;
+        background: none;
+        border: none !important;
+        border-bottom: 1px solid $border-color !important;
+        border-radius: 0px !important;
+        .caret {
+          color: $primary-color;
+        }
+      }
+    }
+  }
+  .companyMain {
+    height: calc(100vh - 54px);
+    padding-left: 50px;
+    padding-right: 50px;
+    .company {
+      font-size: 20px;
+      font-weight: 500;
+      color: $text-color;
+    }
+    .companyCount {
+      margin-right: 0;
+      font-size: 14px;
+      text-align: left;
+      color: $subtle-text-color;
+      // padding-top: 12px;
+    }
+    .createCompanyButton {
+      padding: 10px 30px;
+      border-radius: 2px;
+      float: right;
+      line-height: normal !important;
+      height: 40px;
+    }
+    .btncompanyName {
+      position: relative;
+      top: -2px;
+    }
+    .companySearch {
+      color: #7b8599;
+      font-size: 15px;
+      margin-top: 25px;
+      padding-right: 0 !important;
+      @include placeholder {
+        font-size: 14px !important;
+      }
+      > div {
+        background-color: white;
+        border: 1px solid $border-color;
+        width: 100% !important;
+        > div {
+          width: 100% !important;
+          > span {
+            padding-top: 10px !important;
+            > i {
+              padding-left: 8px;
+              font-size: 1.8rem;
+            }
+          }
+          > input {
+            border-bottom: none;
+            height: 38px;
+            padding-bottom: 2px;
+            font-size: 13px;
+            width: 100%;
+            &:focus {
+              border-bottom: none;
+            }
+          }
+        }
+      }
+    }
+    .orderFilterUp {
+      height: 5px;
+      font-size: 14px;
+      font-weight: bold;
+      padding-right: 1px;
+      cursor: pointer;
+      opacity: 0.75;
+      color: $subtle-text-color;
+      position: relative;
+      top: -1px;
+    }
+    .orderFilterDown {
+      height: 5px;
+      position: relative;
+      top: 13px;
+      right: 11px;
+      font-size: 14px;
+      font-weight: bold;
+      cursor: pointer;
+      opacity: 0.75;
+      color: $subtle-text-color;
+      margin-left: 2px;
+    }
+    .orderFilterDown::before{
+      content: "\F0DD";
+      top: -10px;
+      position: relative;
+  
+    }
+    .currentNameOrder {
+      opacity: 1;
+      color: #2c99ff;
+    }
+    .customScroll {
+      padding-bottom: 15px;
+    }
+    .companyName {
+      text-transform: capitalize;
+      font-size: 14px;
+      color: $secondary-color;
+      @extend %textStyles;
+    }
+    .domainName {
+      font-size: 13px;
+      color: $subtle-text-color;
+      @extend %textStyles;
+    }
+  }
+}
+
+.page_goto {
+  padding-left: 10px;
+  padding-right: 10px;
+  float: left;
+  input {
+    border: 1px solid $border-color;
+    width: 70px;
+    border-radius: 2px;
+    height: 33px;
+    // margin: 1px 0 0;
+    padding: 0 10px;
+    text-align: center;
+    color: $sub-title-color;
+  }
+}
+
+.pager {
+  margin: 0;
+  white-space: nowrap;
+  li {
+    &:first-child, &:last-child {
+      a {
+       color: $sub-title-color;
+       &:hover,
+       &:focus {
+         color: $sub-title-color;
+       }
+      }
+    }
+    a {
+      border-color: $border-color;
+      border-radius: 2px !important;
+      color: $secondary-color;
+      outline: none;
+      padding: 5px 5px !important;
+      &:hover,
+      &:focus {
+        border-color: $border-color;
+        color: $secondary-color;
+        background-color: $white;
+      }
+      span {
+        padding: 0px 5px;
+        // vertical-align: middle;
+      }
+    }
+  }
+  li.disabled {
+    a {
+      // border-color: $lit-grey-font;
+      color: $sub-title-color !important;
+      pointer-events: none;
+      opacity: 0.7;
+    }
+  }
+  .page_no {
+    margin: 5px;
+    a {
+      border-color: $secondary-color;
+      color: $white;
+      background-color: $secondary-color;
+      font-weight: bold;
+      padding: 5px 10px !important;
+      cursor: default;
+      &:hover,
+      &:focus {
+        border-color: $secondary-color;
+        color: $white;
+        background-color: $secondary-color;
+      }
+    }
+  }
+}
+.pagination_containers {
+  float: left;
+  display: inline-flex;
+  // margin-right: 25px;
+  float: right;
+}
+
+
+.clientStatus {
+  float: left;
+  margin-left: -7px;
+}
+
+.lastActivity {
+  margin-top: -10px;
+}
+
+ 
+
+.companyNameContainer {
+  //margin: 10px 5px;
+  display: inline-flex;
+  //margin-left: 10px;
+  margin-top: -10px;
+}
+
+.domainName {
+  font-size: 15px;
+  color: $subtle-text-color;
+}
+
+.logoImg {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+.logoName {
+  width: 30px;
+  height: 30px;
+  background: $dark-grey-background;
+  color: $subtle-text-color;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 2px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.statusBtn {
+  border-radius: 2px;
+  font-size: 14px;
+  min-width: 100px;
+  border: 1px solid #FF851F;
+  background-color: rgba(255, 133, 31, 0.06);
+  color: #FF851F;
+  cursor: default;
+  //line-height: 1;
+  padding: 4px 0px 4px;
+  // margin-top: 8px;
+  margin-top: -4px;
+}
+
+.notInterestedBtn {
+  border: 1px solid $not-interested;
+  color: $not-interested;
+  background-color: rgba(254,114,114, 0.06);
+}
+
+.contactedBtn {
+  border: 1px solid $contacted;
+  color: $contacted;
+  background-color: rgba(117,85,240, 0.06);
+}
+
+.leadBtn {
+  border: 1px solid $lead;
+  color: $lead;
+  background-color: rgba(74,144,226, 0.06);
+}
+
+.prospectBtn {
+  border: 1px solid $prospect;
+  background-color: rgba(255,133,31, 0.06);
+  color: $prospect;
+  cursor: default;
+}
+
+.clientBtn {
+  border: 1px solid $client;
+  color: $client;
+  background-color: rgba(2,184,117, 0.06);
+}
+
+.finalistBtn {
+  border: 1px solid $finalist;
+  color: $finalist;
+  background-color: rgba(23,43,77, 0.06);
+}
+
+.page_no_height {
+  a {
+    min-height: 33px;
+  }
+}
+
+.txt_overflow {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: auto;
+  margin-left: -5px;
+}
+
+.w_200 {
+  max-width: 120px;
+  min-width: 60px;
+}
+
+.headerFixed > thead {
+  color: $subtle-text-color;
+  font-size: 13px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-transform: uppercase;
+  border: none;
+  height: 50px;
+  padding-top: 15px;
+}
+
+.headerFixed > thead > tr, 
+.headerFixed > tbody > tr {
+  width: 100%;
+  display: inline-table;
+  table-layout: fixed;
+  border-bottom: 1px solid $border-color;
+}
+
+.headerFixed > tbody > tr > td {
+  border-right: none !important; 
+}
+
+.headerFixed {
+  height: calc(100vh - 280px);
+}
+
+.headerFixed > tbody {
+  overflow-y: scroll;      
+  height: calc(100vh - 300px);
+  position: absolute;
+  //display: block;
+  background: $white;
+}
+
+.headerFixed > thead > tr > th	 {
+  color: $subtle-text-color;
+  font-size: 13px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-transform: uppercase;
+  border: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.headerFixed > thead > tr {
+  border-bottom: 1px solid $table-border-color;
+}
+
+.headerFixed > thead {
+  background-color: $dark-grey-background;
+}
+
+.salesOwnerContainer {
+  display: inline-flex;
+  margin-top: -10px;
+  .salesOwnerCircle {
+    width: 30px;
+    height: 30px;
+    background: $dark-grey-background;
+    color: $subtle-text-color;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 7px;
+    font-size: 12px;
+    font-weight: 600;
+    margin-right: 1px;
+  }
+}
+
+.customTd {
+  font-size: 14px;
+  color: $text-color !important;
+  vertical-align: middle !important;
+}
+
+.customTr {
+  border-bottom: 1px solid $table-border-color;
+  cursor: pointer;
+  &:hover {
+    background-color: $light-grey-background;
+  }
+}
+
+.customScrollCompany {
+  overflow-y: hidden !important;
+}
+
+.width_200 {
+  //width: 14.28%;
+}
+
+.width_small {
+  //width: 100px;
+}
+
+.width_large {
+  // width: 240px;
+}
+
+.tableBody {
+  overflow-y: auto;
+  height: calc(100vh - 300px);
+}
+
+.tableHeader {
+  font-size: 13px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: $subtle-text-color;
+  text-transform: uppercase;
+  height: 50px;
+  background: $dark-grey-background;
+  padding-top: 15px;
+}
+
+.bodyRow {
+  background-color: $white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid $border-color;
+  color: $text-color;
+  font-size: 14px;
+}
+
+.radioBtn {
+  display: block !important;
+  height: 30px;
+  line-height: 30px !important;
+}
+
+.search-input {
+  input {
+    background: none !important;
+  }
+}
+.searchBarWidth {
+    max-width: 250px;
+    display: inline-flex;
+    //margin-left: 15px;
+    top: -7px;
+    input {
+      min-width: 250px;
+    }
+}
+
+.customTable {
+  width: 100%;
+  margin-bottom: 0px !important;
+}
+
+.customTable > thead, 
+.customTable > tbody, 
+.customTable > thead > tr, 
+.customTable > tbody > tr,
+.customTable > tbody> tr > td, 
+.customTable > thead > tr > th {
+  display: block;
+}
+
+.customTable > thead > tr:after {
+  content: ' ';
+  display: block;
+  visibility: hidden;
+  clear: both;
+}
+
+.customTable > tbody > tr:after {
+  content: ' ';
+  display: block;
+  visibility: hidden;
+  clear: both;
+}
+
+.customTable > thead > tr > th {
+  font-size: 12px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: $subtle-text-color;
+  text-transform: uppercase;
+  height: 50px;
+  background: $dark-grey-background;
+  padding-top: 15px;
+  padding-left: 5px;
+  /*text-align: left;*/
+}
+
+.customTable > tbody {
+  height: calc(100vh - 260px);
+  overflow-y: auto;
+  background-color: $white;
+}
+
+.customTable > thead {
+  /* fallback */
+}
+
+.customTable > tbody > tr {
+  border-bottom: 1px solid $border-color;
+}
+
+.customTable > tbody > tr > td {
+  padding-top: 20px;
+  padding-bottom: 5px;
+  vertical-align: middle !important;
+  padding-left: 15px;
+  font-size: 13px;
+  color: $text-color;
+}
+
+
+.customTable > tbody > tr >  td, 
+.customTable > thead > tr > th {
+  width: 14.28%;
+  float: left;
+  border-right: none !important;
+}
+
+.width_18 {
+  width: 20% !important;
+}
+
+.width_10 {
+  width: 11%  !important;
+}
+
+.width_12 {
+  width: 13%  !important;
+}
+
+.width_15 {
+  width: 14% !important;
+}
+
+.scroll_bar_body {
+  padding-right: 15px;
+  padding-left: 0px;
+}

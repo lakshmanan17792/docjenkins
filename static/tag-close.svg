@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="11px" height="11px" viewBox="0 0 11 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Add</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Screens" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop/Companies/List/V2" transform="translate(-445.000000, -183.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="Category-Copy" transform="translate(340.000000, 173.000000)">
+                <g id="Country-Tag" transform="translate(53.000000, 0.000000)">
+                    <path d="M63.2945464,14.5930147 L58.4069853,14.5930147 L58.4069853,9.70542718 C58.4069853,9.48277755 58.1046481,9 57.5,9 C56.8953519,9 56.5930147,9.48280398 56.5930147,9.70542718 L56.5930147,14.5930411 L51.7054272,14.5930411 C51.482804,14.5930147 51,14.8953519 51,15.4999736 C51,16.1045952 51.482804,16.4069589 51.7054272,16.4069589 L56.5930411,16.4069589 L56.5930411,21.2945728 C56.5930411,21.5171696 56.8953519,22 57.5000264,22 C58.104701,22 58.4070118,21.5171696 58.4070118,21.2945728 L58.4070118,16.4069589 L63.2946257,16.4069589 C63.5172225,16.4069589 64.0000529,16.1046481 64.0000529,15.4999736 C64.0000529,14.895299 63.5171696,14.5930147 63.2945464,14.5930147 Z" id="Add" transform="translate(57.500026, 15.500000) rotate(45.000000) translate(-57.500026, -15.500000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

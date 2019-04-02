@@ -1,0 +1,12 @@
+export App from './App/App';
+// export Login from './Login/Login';
+// export LoginSuccess from './LoginSuccess/LoginSuccess';
+export NotFound from './NotFound/NotFound';
+// export ATSBoard from './ATSBoard/ATSBoard';
+export ViewProfile from './ProfileSearch/ViewProfile';
+export ProfileFilter from './ProfileSearch/ProfileFilter';
+export Customers from './Customers/Customers';
+export Resume from './Resume/Resume';
+export CompanyContainer from './Customers/CompanyContainer';
+export ApplicationTracking from './ApplicationTracking/ApplicationTracking';
+export TemplateManager from './TemplateManager/TemplateManager';

@@ -1,0 +1,26 @@
+export default function constructFilters(values) {
+  return ({ skills: values.skills,
+    location: values.location,
+    preferredRadius: values.preferredRadius || 0,
+    keywords: values.keywords,
+    experience: values.experience,
+    positions: values.positions,
+    companies: values.company,
+    source: values.source,
+    languages: values.languages,
+    languageStr: values.languageStr,
+    skillRating: values.skillRating || 0,
+    mobilityRating: values.mobilityRating || 0,
+    companyCultureRating: values.companyCultureRating || 0,
+    pedigreeRating: values.pedigreeRating || 0,
+    contactRating: values.contactRating || 0,
+    skillStr: values.skillStr,
+    id: values.filterId,
+    isEmail: values.isEmail,
+    isMobile: values.isMobile,
+    isFreelance: values.isFreelance,
+    noticePeriod: values.noticePeriod,
+    noticePeriodType: values.noticePeriodType,
+    candidateTags: values.candidateTags
+  });
+}

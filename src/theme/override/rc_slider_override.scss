@@ -1,0 +1,48 @@
+
+@import "~rc-slider/assets/index.css";
+@import "../variables.scss";
+
+.rc-slider {
+  margin-left: 10px;
+  width: 95%;
+  .rc-slider-rail {
+    height: 5px;
+    background-color: #e0e6ed;
+  }
+  .rc-slider-track {
+    background-color: $secondary-color;
+    opacity: 0.3;
+    border-radius: none;
+    height: 5px;
+  }
+  .rc-slider-handle {
+    background-color: $secondary-color;
+    border: solid 1px $secondary-color;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    &:hover {
+      border-color: $secondary-color;
+    }
+    &:focus, &:active {
+      border-color: $secondary-color;
+      box-shadow: none;
+    }
+  }
+  .rc-slider-mark {
+    width: 98% !important;
+    font-size: 12px !important;
+    .rc-slider-mark-text {
+      color: $subtle-text-color;
+    }
+    .rc-slider-mark-text-active {
+      color: $text-color;
+    }
+  }
+  .rc-slider-step {
+    display: none !important;
+    .rc-slider-dot {
+      display: none !important;
+    }
+  }
+}

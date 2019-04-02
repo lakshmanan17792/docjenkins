@@ -1,0 +1,72 @@
+
+$primary-color:#172B4D; //#02B875;
+$secondary-color: #1F9AFF;
+$light-grey-background: #F4F5F7;
+$dark-grey-background: #EAECF0;
+$text-color: #172B4D;
+$subtle-text-color: #5E6C84;
+$error-color: #FF5766;
+$primary-btn-color: #02B875;
+$secondary-btn-color: #02B875;
+$progress-bar-color: #cbd6e2;
+
+.progressBar {
+  .step {
+    padding: 0;
+    .stage{
+      width: 100%;
+      .leftBar {
+        margin-right: 0;
+        width: calc(50% - 9px);
+        height: 2px;
+        float: left;
+        margin-top: 8px;
+        background-color: $progress-bar-color;
+      }
+
+      .rightBar {
+        margin-right: 0;
+        width: calc(50% - 9px);
+        height: 2px;
+        float: right;
+        margin-top: 8px;
+        background-color: $progress-bar-color;
+      }
+
+      .icon {
+        width: 18px;
+        font-size: 21px;
+        color: $progress-bar-color;
+        cursor: pointer;
+      }
+
+      .activeBackground {
+        background-color: $primary-color;
+      }
+
+      .activeColor {
+        color: $primary-color;
+      }
+    }
+
+    .stageTitle {
+      text-align: center;
+      width: 100%;
+      padding: 5px 0;
+      font-size: 15px;
+      font-weight: bolder;
+    }
+
+    &:first-child {
+      .leftBar {
+        background-color: transparent !important;
+      }
+    }
+
+    &:last-child {
+      .rightBar {
+        background-color: transparent !important;
+      }
+    }
+  }
+}

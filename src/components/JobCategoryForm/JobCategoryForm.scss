@@ -1,0 +1,95 @@
+@import './../../theme/variables.scss';
+$active-job-cateogory-color: linear-gradient(#cc0, #aa0);
+$dirty-job-category-color: linear-gradient(#090, #060);
+$visited-job-cateogory-color: linear-gradient(#009, #006);
+$touched-job-category-color: linear-gradient(#099, #066);
+
+.inputGroup {
+  position: relative;
+}
+
+.flags {
+  position: absolute;
+  right: 20px;
+  top: 7px;
+  & > * {
+    margin: 0 2px;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 3px rgba($black, 0.4);
+    color: $white;
+    float: right;
+    text-align: center;
+  }
+  .active {
+    background: $active-job-cateogory-color;
+    color: $black;
+  }
+  .dirty {
+    background: $dirty-job-category-color;
+  }
+  .visited {
+    background: $visited-job-cateogory-color;
+  }
+  .touched {
+    background: $touched-job-category-color;
+  }
+}
+
+.radioLabel {
+  margin: 0 25px 0 5px;
+}
+
+.cog {
+  position: absolute;
+  left: 0;
+  top: 10px;
+}
+
+.modal_title {
+  color: $text-color;
+}
+
+.font_bold {
+  font-weight: bold;
+}
+
+.category_checkbox {
+  font-size: 13.5px;
+  font-weight: 500;
+  input[type="checkbox"],
+  input[type="radio"] {
+    height: 20px;
+    width: 20px;
+    margin: 0;
+  }
+}
+
+.modal_heading {
+  font-size: 16px;
+  color: $primary-color;
+  font-weight: 400;
+}
+.modal_title {
+    color: $text-color !important;
+    text-align: center
+}
+.modal_header {
+    background: $dark-grey-background;
+}
+
+.save_btn {
+  width: 100%;
+  height: 35px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 2px;
+  font-size: 12px;
+  font-weight: normal;
+  font-weight: 600;
+  i {
+    padding-right: 10px;
+    font-size: 14px;
+  }
+}

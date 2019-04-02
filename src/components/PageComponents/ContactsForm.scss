@@ -1,0 +1,18 @@
+@import './../../theme/variables.scss';
+
+.addNewContact {
+  background-color: $light-grey-background !important;
+  border-radius: 40px;
+  color: $text-color !important;
+  &:hover {
+    background-color: $primary-color !important;
+    color: $white !important;
+  }
+}
+.contacts {
+  padding: 0 15px;
+  .panelTitle {
+    color: #6a7680 !important;
+    font-weight: 700;
+  }
+}

@@ -1,0 +1,26 @@
+@import "~rc-checkbox/assets/index.css";
+@import "../variables.scss";
+$border-color: #d7dee8;
+
+.rc-checkbox {
+  &.rc-checkbox-disabled {
+    input[type="checkbox"][disabled] {
+      display: none;
+    }
+    &:hover .rc-checkbox-inner, .rc-checkbox-input:focus + .rc-checkbox-inner {
+      border-color: $border-color !important;
+    }
+  }
+  &:hover .rc-checkbox-inner, .rc-checkbox-input:focus + .rc-checkbox-inner {
+    border-color: $border-color !important;
+  }
+}
+
+.rc-checkbox-checked .rc-checkbox-inner {
+  border-color: $secondary-color !important;
+  background-color: $secondary-color !important;
+}
+
+.rc-checkbox {
+  padding: 0 10px 0 0;
+}

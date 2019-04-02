@@ -1,0 +1,144 @@
+@import './variables.scss';
+.email_list {
+  padding: 5rem;
+  padding-top: 0rem;
+  ul li {
+    background-color: rgba(0, 0, 0, 0) !important;
+  }
+}
+
+.email_section {
+  &:not(:last-child) {
+    margin-bottom: 30px;
+  }
+  button.thread_btn {
+    width: fit-content;
+    border: none;
+    text-decoration: underline;
+    padding-left: 0;
+    margin-top: 0;
+    margin-left: -12px;
+  }
+  .email_thread {
+    height: 15rem;
+    overflow: hidden;
+    margin-bottom: 10px;
+    border-bottom: 1px solid $grey-border-clr;
+  }
+  border-radius: 4px;
+  background-color: $white;
+  box-shadow: 0 2px 10px 0 rgba(123, 133, 153, 0.2);
+  padding: 20px 30px 15px 20px;
+}
+.email_card {
+  border-bottom: 1px solid $grey-border-clr;
+  .email_intro {
+    color: $text-color;
+    font-size: 13.5px;
+    p {
+      margin-bottom: 0px !important;
+    }
+    .email_delivery_info {
+      border-bottom: 1px solid $grey-border-clr;
+      display: flex;
+      .name_logo {
+        background-color: #EAECF0;
+        color: #5E6C84;
+        font-size: 20px;
+        height: 40px;
+        width: 40px;
+        margin-top: 5px;
+        font-weight: 600;
+        padding: 5px 14px;
+        border-radius: 50%;
+      }
+      span {
+        display: inline-block;
+      }
+      span.to_date {
+        vertical-align: middle;
+        padding-bottom: 10px;
+        .sent_email_info_txt {
+          font-size: 15px;
+        }
+      }
+    }
+
+    .thread_info {
+      font-size: 14px;
+      color: $subtle-text-color;
+      vertical-align: top;
+      span {
+        color: $subtle-text-color;
+        font-weight: 500;
+        float: right;
+      }
+    }
+    td {
+      color: $subtle-text-color;
+    }
+    .email_time {
+      color: $subtle-text-color;
+      font-size: 13px;
+    }
+    .email_subject {
+      color: $text-color;
+      font-size: 15px;
+      font-weight: 500;
+    }
+    .mail-content {
+      height: 5rem;
+      overflow: hidden;
+    }
+    .fade_effect {
+      bottom: 38px;
+      content: "";
+      left: 0;
+      pointer-events: none;
+      position: relative;
+      height: 3rem;
+      right: 0;
+      background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), $white);
+    }
+  }
+}
+button.expand_collapse_btn {
+  width: fit-content;
+  height: 36px;
+  text-align: center;
+  border-radius: 4px;
+  border: solid 1px $blue-btn-txt;
+  color: $blue-btn-txt;
+  background-color: $white;
+}
+.reply_btn_section {
+  margin-left: -14px;
+  span {
+    width: 1px !important;
+    height: 28px !important;
+    background-color: $grey-border-clr;
+    display: inline-block;
+    margin-left: -6px;
+    margin-bottom: -8px;
+  }
+  // border-top: 1px solid $grey-border-clr;
+  button.reply_btn {
+    border: none;
+  }
+}
+.attachment_container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  .attachment {
+    border: 1px solid rgba(56, 72, 90, 0.1) !important;
+    background-color: rgba(56, 72, 90, 0.02);
+    padding: 10px;
+    color: $blue-btn-txt;
+    margin: 10px 5px;
+    display: inline-block;
+  }
+  .downloadIcon {
+    margin-left: 5px;
+    color: $blue-btn-txt;
+  }
+}

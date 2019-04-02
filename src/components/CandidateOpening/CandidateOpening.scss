@@ -1,0 +1,100 @@
+@import './../../theme/variables.scss';
+.add_btn {
+  font-size: 14px;
+  border: none;
+  padding:8px 25px;
+  border-radius: 5px;
+  &:hover:enabled {
+    background-color: $primary-btn-color;
+    color: $white;
+    border: none;
+    // box-shadow: 0 1px 0px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.12);
+  }
+}
+.jobHeader {
+  text-align: left;
+  color: #284255;
+  font-size: 16px;
+  font-weight: 400;
+}
+.openings {
+  text-align: left;
+  color: #87919b;
+  font-weight: 500;
+  padding-top: 5px;
+}
+.capitalize {
+  text-transform: capitalize;
+}
+.ellipsis {
+  min-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.jobopening {
+  margin-top: 15px;
+  border-bottom: 1px solid #eeeeef;
+  .label {
+    width: 100px;
+    height: 26px;
+    border-radius: 5px;
+    background-color: rgba(241, 133, 56, 0.1);
+    border: solid 1px $primary-color;
+    padding: 5px 10px;
+    color: $text-color;
+    .labelText {
+      font-size: 13px;
+      font-weight: normal;
+    }
+  }
+  .jobTitle {
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: $text-color;
+    cursor: pointer;
+    outline: none;
+  }
+  .vacancies {
+    text-align: left;
+    padding-top: 5px;
+    color: #39444d;
+    font-weight: 500;
+  }
+  .titleLabel {
+    text-align: right;
+    color: #87919b;
+    font-weight: 500;
+  }
+}
+.no_opening {
+  color: #284255;
+  font-size: 18px;
+  padding: 10px;
+  text-align: center;
+}
+.no_opening_label {
+  font-size: 15px;
+  color: #4a4a4a;
+  text-align: center;
+}
+.no-opening_btn {
+  text-align: center;
+  padding: 10px;
+}
+.closed {
+  background-color: rgba(242, 84, 91, 0.04) !important;
+  border: solid 1px #ed6666 !important;
+  color: #ed6666 !important;
+}
+.active {
+  background-color: rgba(2, 184, 117, 0.06) !important;
+  border: solid 1px #02b875 !important;
+  color: #28b875 !important;
+}

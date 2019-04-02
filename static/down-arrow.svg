@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="8px" viewBox="0 0 10 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Triangle Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Screens" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.700000048">
+        <g id="Home" transform="translate(-1360.000000, -129.000000)" fill="#FFFFFF">
+            <g id="Create-Company" transform="translate(1240.000000, 112.000000)">
+                <path d="M125.8,23.9333333 L129.8,18.6 C130.131371,18.1581722 130.041828,17.5313708 129.6,17.2 C129.426904,17.0701779 129.21637,17 129,17 L121,17 C120.447715,17 120,17.4477153 120,18 C120,18.2163702 120.070178,18.4269038 120.2,18.6 L124.2,23.9333333 C124.531371,24.3751611 125.158172,24.4647042 125.6,24.1333333 C125.675806,24.0764791 125.743146,24.009139 125.8,23.9333333 Z" id="Triangle-Copy"></path>
+            </g>
+        </g>
+    </g>
+</svg>

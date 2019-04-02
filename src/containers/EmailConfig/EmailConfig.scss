@@ -1,0 +1,78 @@
+@import "../../theme/variables.scss";
+
+.emailConfig {
+  background: #fff;
+  height: calc(100vh - 51px);
+  .title, .subTitle {
+    text-align: center;
+  }
+  .title { 
+    padding-top: 100px;
+    color: $title-black-color;
+    font-size: 28px;
+  }
+  .subTitle {
+    padding-top: 10px;
+    font-size: 15px;
+    color: $sub-title-color;
+  }
+  .cardContainer {
+    margin: 50px auto;
+    width: 500px;
+    display: flex;
+    .card {
+      width: 170px;
+      height: 170px;
+      border-radius: 4px;
+      box-shadow: 0 2px 4px 0 rgba(123, 133, 153, 0.1);
+      background-color: #ffffff;
+      border: solid 1px #e0e6ed;
+      margin: 0 auto;
+      text-align: center;
+      .logo {
+        margin-top: 20px;
+      }
+      .btnConnect {
+        background-color: $button-color;
+        color: $white;
+      }
+    }
+  }
+}
+
+.configModal {
+  .accept, .accept:hover {
+    background-color: $primary-color;
+    color: $white;
+  }
+  .cancel, .cancel:hover {
+    border-radius: 4px;
+    border: solid 1px $primary-color;
+    background-color: #ffffff;
+    color: $primary-color;
+    margin-right: 10px;
+  }
+  .modalTitle {
+    text-align: center;
+  }
+}
+
+.emailAuthorize {
+  background: #fff;
+  height: calc(100vh - 51px);
+  text-align: center;
+  .logo {
+    margin-top: 100px;
+    width: 200px;
+    height: 200px;
+  }
+  .title { 
+    color: $title-black-color;
+    font-size: 28px;
+  }
+  .subTitle {
+    padding-top: 10px;
+    font-size: 16px;
+    color: $sub-title-color;
+  }
+}

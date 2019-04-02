@@ -1,0 +1,36 @@
+@import '../../theme/variables.scss';
+
+.container {
+  padding: 20px 30px;
+  .roleName {
+    font-size: 20px;
+    >i {
+      color: $primary-color;
+      margin-right: 20px;
+    }
+  }
+  .tableStyles {
+    background-color: $white;
+    .table > thead:first-child > tr:first-child > th {
+      border-top: 1px solid #e7eaec !important;
+    }
+  }
+  .checkbox {
+    margin: 10px 0;
+  }
+  .additionalEntities{
+    background-color: white !important;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    .title {
+      font-size: 15px;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+    .options {
+      // cursor: pointer;
+      position: absolute;
+    }
+  }
+}

@@ -1,0 +1,448 @@
+@import './../../theme/variables.scss';
+@import './../../components/FormComponents/FormComponents.scss';
+
+.search_bar {
+  padding-left: 20px !important;
+}
+
+.job_openings_searchbar  {
+  .iconSearch i {
+    font-size: 15px;
+    padding-top: 4px;
+    font-weight: 100;
+    margin-left: 10px;
+  }
+}
+
+.job_openings {
+  .headerDiv {
+    padding-top: 15px;
+    background-color: #ffffff;
+    height: 100px;
+  }
+
+  .header {
+    font-size: 22px;
+    margin-left: 50px;
+    color: $title-black-color;
+  }
+
+  .job_openings_nav {
+    margin: 5px auto 50px 50px;
+    text-transform: capitalize;
+    display: block;
+    font-size: 15px;
+    li{
+      position: relative;
+      float: left;
+      padding-top: 15px;
+      text-decoration: none;
+      cursor: pointer;
+      span {
+        color: $title-black-color;
+        padding: 1.6rem 1.2rem;
+        &.active {
+          color: $primary-color;
+          border-bottom: 2px solid $primary-color !important;
+        }
+        &:hover {
+          border-bottom: 2px solid $primary-color !important;
+        }
+      }
+    }
+  }
+
+  .totalDiv {
+    margin: 20px auto 20px 100px;
+    display: flex;
+
+    .noOFOpenings {
+      width: 200px;
+      font-size: 16px;
+      color: $title-black-color;
+    }
+
+    .seperator {
+      font-size: 16px;
+      color: $title-black-color;
+    }
+
+    span {
+      display: inline-block;
+    }
+
+    div {
+      display: inline-block;
+    }
+  }
+
+  .gridDiv {
+    margin: 10px 100px auto 100px;
+    margin-bottom: 40px !important;
+    .row {
+      background-color: #ffffff;
+      border-bottom: 1px solid #e0e0e0;
+      border-left: 1px solid #e0e0e0;
+      border-right: 1px solid #e0e0e0;
+      text-align: left;
+      font-size: 12px;
+
+      button {
+        border-radius: 4px !important;
+      }
+
+      .cellContent {
+        p {
+          font-size: 16px;
+          color: #38485a;
+        }
+
+        span {
+          font-size: 14px;
+        }
+      }
+
+      .actionCell {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  }
+}
+
+.jobOpeningsWrapper {
+
+  .sidebar {
+    position          : fixed;
+    top               : 0;
+    left              : 0;
+    right             : 0;
+    bottom            : 0;
+    background-color  : #38485a;
+    height: 100vh;
+    z-index: 9999;
+    // opacity: 0.9;
+    background: rgba(0, 0, 0, 0.57);
+
+    .cancelSideBar {
+      width: 22px;
+      height: 22px;
+      object-fit: contain;
+      cursor: pointer;
+    }
+
+    .sideBarContent {
+      top: 0;
+      width: 500px;
+      height: 100vh;
+      background-color: #FFFFFF;
+      margin-left: calc(100% - 500px);
+      overflow: auto;
+      display: inline-block;
+      position: fixed;
+      opacity: 1;
+    }
+
+    .closeButton {
+      margin-left: calc(100% - 550px);
+      position: fixed;
+      display: inline-block;
+      top: 20px;
+    }
+
+  }
+
+  .sidebar.inactive {
+    margin-right: -250px;
+    display: none;
+  }
+
+  .content {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .jobDetails {
+    padding: 20px;
+    color: #7b8599;
+    font-size: 11px;
+    // height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    .jobDetailsHeader {
+      div {
+        display: inline-block;
+      }
+    }
+
+    .transform {
+      text-transform: capitalize;
+    }
+
+    .nextContentDiv {
+      margin: 15px 0 15px 0;
+
+      > p {
+        font-size: 12px;
+        margin-bottom: 5px;
+      }
+
+      > span {
+        color: #38485a;
+        font-size: 16px;
+      }
+    }
+
+    .divHeading {
+      > p {
+        color: #000000;
+      }
+    }
+
+    .required {
+      color: $primary-color;
+      font-size: 14px !important;
+      display: inline;
+    }
+
+    .emptyAssign {
+      text-align: center;
+      color: #7b8599;
+      font-weight: bolder;
+    }
+
+    .alterOption {
+
+      > p {
+        display: inline-block;
+      }
+
+      > span {
+        font-size: 12px !important;
+        color: $primary-color !important;
+        display: inline-block;
+        float: right;
+        cursor: pointer;
+      }
+    }
+
+    .dateRange {
+      display: flex;
+
+      .date{
+        color: #38485a;
+        font-size: 12px;
+      }
+
+      .dateRangeLiner {
+        margin: 10px 10px 0 10px;
+        display: flex;
+
+        span {
+          width: 10px;
+          height: 10px;
+          background-color: #7b8599;
+          -webkit-border-radius: 25px;
+          -moz-border-radius: 25px;
+          border-radius: 25px;
+        }
+
+        div {
+          background-image: linear-gradient(to right, #333 40%, rgba(255, 255, 255, 0) 20%);
+          background-position: top;
+          background-size: 10px 1px;
+          background-repeat: repeat-x;
+          margin: 4px;
+          height:1px;
+          width:185px;
+        }
+      }
+    }
+
+    .priority {
+      float: right;
+      border-radius: 4px;
+      font-size: 13px;
+      p {
+        padding: 5px;
+        margin: 0px;
+        text-transform: capitalize;
+      }
+
+      &.veryHighPriority {
+        border: solid 1px #d03d0e;
+        p {
+          color: #d03d0e;
+        }
+      }
+
+      &.highPriority {
+        border: solid 1px #fe7272;
+        p {
+          color: #fe7272;
+        }
+      }
+
+      &.lowPriority {
+        border: solid 1px #eaa31f;
+        p {
+          color: #eaa31f;
+        }
+      }
+
+      &.veryLowPriority {
+        border: solid 1px #ffc107;
+        p {
+          color: #ffc107;
+        }
+      }
+    }
+
+    .jobName {
+      font-size: 17px;
+      color: $title-black-color;
+    }
+  }
+
+  .jobDetailsViewTag {
+    border-radius: 4px;
+    background-color: #38485a;
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 10px;
+    p {
+      padding: 5px;
+      margin: 0;
+      color: #ffffff;
+      text-transform: capitalize;
+    }
+  }
+
+  .jobCards {
+
+    align-items: center;
+    text-align: center;
+
+    div {
+      display: inline-block;
+      margin: 10px;
+      text-align: center;
+
+      p {
+        font-size: 12px;
+        color: $title-black-color;
+      }
+    }
+  }
+
+  .unassignedActions {
+    display: flex;
+    align-content: flex-end;
+    margin-top: 20px;
+
+    button {
+      margin-left: 10px;
+    }
+
+    &:first-child {
+      margin-left: 40px;
+    }
+  }
+
+  .jobDetailsContent {
+    flex: 1;
+  }
+
+  .footer {
+
+  }
+
+  .assignJobOpening {
+    margin: 10px;
+
+    > span.back {
+      font-size: 11px;
+      color: $primary-color;
+      cursor: pointer;
+    }
+
+    .sectionTitle {
+      text-align: center;
+      color: #000000;
+      padding-bottom: 20px;
+      font-size: 17px;
+    }
+
+    .searchBox {
+      width: 100%;
+      ul {
+        width: 100% !important;
+        height: 130px !important;
+        overflow: auto !important;
+        a {
+          padding: 0 !important;
+        }
+      }
+
+      .itemContainer {
+        //padding-left: 10px;
+        div {
+          display: inline-block;
+        }
+        div.avatar {
+          //margin-top: 10px;
+          width: 25px;
+          height: 25px;
+          border-radius: 25px;
+          background: #333;
+          margin-right: 10px;
+          div {
+            width: 100%;
+            text-align: center;
+            color: white;
+            font-size: 18px;
+            line-height: 25px;
+          }
+        }
+      }
+    }
+
+    .tagsInput {
+      input {
+        display: none !important;
+      }
+
+      span {
+        border-radius: 4px !important;
+        background-color: #38485a !important;
+        text-transform: capitalize !important;
+        margin: 5px !important;
+        color: #ffffff !important;
+        display: inline-block;
+        padding: 4px;
+
+        a {
+          color: white;
+          text-decoration: none;
+          padding-left: 5px;
+        }
+      }
+
+    }
+  }
+}
+
+.displayTitle {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 200px;
+}
+.displayTitleVacancy {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 300px;
+}
+

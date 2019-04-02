@@ -1,0 +1,225 @@
+@import './../../theme/variables.scss';
+.fileManager {
+    padding: 20px 20px;
+    .fileMenus {
+    padding: 10px 5px;
+    margin: 5px 0;
+    border-bottom: none;
+    text-align: end;
+    height: 55px;
+      button {
+        ul {
+          .dropdown-menu {
+            padding: 0;
+          }
+        }
+      }
+    }
+    .fileInputWrapper {
+      display: inline-block;
+      // float: right;
+      position: relative;
+      overflow: hidden;
+      vertical-align: bottom;
+      cursor: pointer;
+      .uploadButton {
+        cursor: pointer;
+      }
+      input {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+      }
+    }
+  .fileContainer {
+    min-height: calc((100vh - 170px) + 15px);
+    max-height: calc((100vh - 170px) + 15px);
+    .uploadIcon {
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .parser_main {
+        background: #fff;
+        padding: 10px 0px;
+        width: 550px;
+        text-align: center;
+        .icon {
+          font-size: 100px;
+          color: #c7c3c3 !important;
+          padding: 5px 10px;
+        }
+        h2 {
+          font-size: 18px;
+          font-weight: 600;
+          padding: 15px 20px;
+          margin: 0 0 20px;
+        }
+        .parser_ins {
+          padding: 0 20px;
+        }
+      }
+    }
+    &::-webkit-scrollbar {
+      width: 5px;
+    }
+    &::-webkit-scrollbar-button {
+      background: #888;
+      display: none;
+    }
+    &::-webkit-scrollbar-track-piece {
+      background: #ffffff
+    }
+    &::-webkit-scrollbar-thumb {
+      background: #cdcdcd;
+      border-radius: 5px;
+    }​
+    .fileUploadText {
+      width: 100%;
+      text-align: center;
+      margin-top: 200px;
+      font-size: 20px;
+      font-weight: bolder;
+      color: rgba(239, 131, 43, 0.6);
+    }
+    .loader {
+      background-color: black;
+      opacity: 0.4;
+      font-size: 20px;
+      position: absolute;
+      height: 100%;
+      width: 100%;
+    }
+  }
+  .fileContainer_onfiledrag {
+    border: 1px dashed $primary-color;
+    background: #f1c7a2;
+  }
+  .pagination_total {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  .theme_color {
+    color: #999;
+    font-weight: 600;
+  }
+  .text_wrap {
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .viewIcon {
+    font-size: 13px;
+    color: #615b5b !important;
+    padding: 5px 5px;
+    cursor: pointer;
+  }
+  .fileName {
+    font-weight: 600;
+    cursor: pointer;
+    transition: color .2s ease-in-out;
+    color: #4a89dc;
+    text-decoration: none;
+  }
+  .timeFormat {
+    font-weight: 600;
+    margin-left: 10px;
+    color: #999;
+  }
+  input[type="checkbox"] {
+    box-sizing: border-box;
+    padding: 0;
+    width: 15px;
+    height: 15px;
+  }
+}
+.dropDown{
+  .selectDropDown {
+    float: right !important;
+    margin-left: 10px !important;
+    background-color: unset;
+    border-color: $border-color;
+    height: 34px;
+  }
+  ul {
+    padding: 0 !important;
+    min-width: 100px !important;;
+    margin-left: 10px !important;
+    background-color: $white !important;
+    li {
+      background-color: $white !important;
+      a {
+        padding: 7px 20px !important;
+        &:hover {
+          background-color: $dark-grey-background !important;
+        }
+      }
+    }
+  }
+}
+
+@mixin keyframes($animationName) {
+  @-webkit-keyframes #{$animationName} {
+    @content;
+  }
+  @-moz-keyframes #{$animationName} {
+    @content;
+  }
+  @-o-keyframes #{$animationName} {
+    @content;
+  }
+  @keyframes #{$animationName} {
+    @content;
+  }
+}
+
+@mixin animate($name, $duration, $count) {
+  animation-name: $name;
+  -webkit-animation-name: $name;
+  -moz-animation-name: $name;
+  -o-animation-name: $name;
+
+  animation-duration: $duration;
+  -webkit-animation-duration: $duration;
+  -moz-animation-duration: $duration;
+  -o-animation-duration: $duration;
+
+  animation-iteration-count: $count;
+  -webkit-animation-iteration-count: $count;
+  -moz-animation-iteration-count: $count;
+  -o-animation-iteration-count: $count;
+}
+
+.uploadBox {
+  position: absolute;
+  bottom: 60px;
+  left: 45%;
+  @include animate(bounce, 1.5s, infinite);
+  @include keyframes(bounce){
+    0% {
+      transform: translateY(50%);
+      -o-transform: translateY(50%);
+      -webkit-transform: translateY(50%);
+      -moz-transform: translateY(50%);
+    }
+    100% {
+      transform: translateY(0%);
+      -o-transform: translateY(0%);
+      -webkit-transform: translateY(0%);
+      -moz-transform: translateY(0%);
+    }
+  }
+  i {
+    font-size: 60px;
+    color: $primary-color;
+    margin-left: 22px;
+  }
+
+  span {
+    color: $primary-color;
+    font-style: bolder;
+  }
+}

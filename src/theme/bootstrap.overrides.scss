@@ -1,0 +1,323 @@
+/**
+ * Override Bootstrap styles that you can't modify via variables here.
+ *
+ */
+@import "./override/react_widgets_override.scss";
+@import "./override/rc_slider_override.scss";
+@import "./override/rc_checkbox_override.scss";
+@import './toastr/index.scss';
+@import "./override/toastr_override.scss";
+@import "./override/react_select_override.scss";
+@import "./override/react_bootstrap_table_override.scss";
+@import "./emailActivity.scss";
+
+
+.navbar-top-links li {
+  display: inline-block;
+}
+
+.navbar-top-links li a {
+  padding: 15px 10px;
+  min-height: 50px;
+}
+
+.navbar-top-links li {
+  display: inline-block;
+}
+
+.navbar-top-links li a {
+  padding: 15px 10px;
+  min-height: 50px;
+}
+.nav > li > a:hover, .nav > li > a:focus {
+  background-color: transparent !important;
+}
+
+.btn-default:focus,
+.btn-default:active,
+.btn-default:active:focus {
+  outline: none !important;
+}
+
+.gray-bg {
+  background-color: $light-grey-background;
+}
+
+.profile_filter {
+  .fields_body {
+    .filter-input {
+        box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1) !important;
+      .rw-multiselect.rw-widget {
+        border-radius: 2px !important;
+        .rw-widget-input.rw-widget-picker.rw-widget-container {
+          background-color: #f3f4f4 !important;
+        }
+      }
+    }
+  }
+}
+.footer {
+  position: fixed;
+}
+
+.tab_section {
+  .nav-tabs {
+    border: none !important;
+  }
+}
+
+.dropdown-menu-right {
+  left: auto !important;
+  right: 0;
+  border: 1px solid $border-color;
+}
+
+/* Panel Start */
+.panel-default {
+  border: none;
+}
+/* Panel End */
+
+/* Start - Placeholder Font Size */
+::-webkit-input-placeholder {
+  font-size: 13px !important; // overall -styling
+  color: $lit-grey-font !important;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  font-size: 13px !important;
+  color: $lit-grey-font !important;
+}
+/* End */
+
+@media only screen and (max-width: 768px) {
+  .navbar-top-links {
+    display: inline-block;
+  }
+  .navbar-top-links.navbar-right {
+    float: right;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .navbar-top-links.navbar-left {
+    display: none !important;
+  }
+}
+.rc-tooltip{
+  opacity: 1 !important;
+  background-color: transparent !important;
+}
+
+.rc-tooltip-arrow {
+  border-right-color: $secondary-color !important;
+  border-left-color: $secondary-color !important;
+}
+.rc-tooltip-inner{
+  border: 2px solid $secondary-color !important;
+  border-radius: 5px !important;
+  .rc-tooltip-arrow-inner {
+    border-right-color: $secondary-color !important;
+    border-left-color: $secondary-color !important;
+  }
+  // box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14) !important;
+  padding: 10px 15px !important;
+  text-align: left;
+}
+
+.rw-input,
+.rw-filter-input {
+  // padding: 0 0 0 10px !important;
+  padding: 0 !important;
+}
+// .rw-list-option:hover,
+// .rw-list-option:hover.rw-state-focus {
+//   background-color: #f3862b;
+//   border: none;
+//   color: white;
+// }
+
+// .rw-list-option.rw-state-focus{}
+//   background-color: #f3862b;
+//   border: none;
+//   color: white;
+// }
+
+.rw-input, .rw-dropdown-list-autofill, .rw-filter-input, .rw-filter-input, .rw-i, .rw-list-option {
+  padding-left: 10px !important;
+  color: $subtle-text-color;
+}
+
+.Select-menu-outer {
+.Select-option {
+  &.is-selected {
+    background-color: $primary-color;
+    color: white;
+    border:none;
+  }
+  &.is-focused {
+    background-color: $secondary-color;
+    color: white;
+    border:none;
+  }
+}
+}
+
+.rw-placeholder {
+  color: $subtle-text-color;
+  opacity: 0.7;
+}
+
+.rw-list-option {
+  color: $primary-color !important;
+  padding: 10px !important;
+  border:none !important;
+  &.rw-state-focus {
+   background-color: $dark-grey-background !important;
+   border:none !important;
+  }
+  &:hover,
+  &:hover.rw-state-focus {
+    background-color: $dark-grey-background;
+    border:none !important;
+  }
+}
+.rw-list-option.rw-state-selected,
+.rw-list-option.rw-state-selected:hover{
+  background-color: $dark-grey-background !important;
+  border:none !important;
+}
+
+.rw-widget-input .rw-multiselect-tag, .rw-filter-input .rw-multiselect-tag {
+  background-color: $text-color !important;
+  border-color: $text-color !important;
+  padding: 2px 3px 2px 3px;
+}
+
+.rw-widget-input .rw-multiselect-tag button, .rw-filter-input .rw-multiselect-tag button {
+  color: $white;
+}
+
+// .opening_dropdown + .dropdown-menu {
+//   margin-top: -8px !important;
+// }
+
+.timeline_common .timeline > li > .timeline-badge, .activity_logger .timeline > li > .timeline-badge, .email_list .timeline > li > .timeline-badge {
+  line-height: 2.7em;
+}
+
+.logger_container .rw-input, .logger_container .rw-filter-input {
+  padding-left: 5px !important;
+}
+
+button.expand_collapse_btn {
+  border-radius: 2px !important;
+  color: $secondary-color !important;
+  border-color: $secondary-color !important;
+  margin-top: -8px !important;
+}
+
+.custom_progress {
+  .progress {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    height: 6px !important;
+    margin-top: 6px;
+    .progress-bar {
+      background-color: $secondary-color;
+    }
+  }
+}
+
+.customBtnDropDown, .opening_dropdown {
+  background-color: $white !important;
+  border: solid 1px $border-color !important;
+  color: $text-color !important;
+  font-weight: normal !important;
+  font-stretch: normal !important;
+  line-height: normal !important;
+  letter-spacing: normal !important;
+  font-style: normal !important;
+  height: 31.5px;
+  padding: 0px 50px 0px 10px !important;
+  box-shadow: none !important;
+  font-size: 13px !important;
+  border-radius: 2px;
+  &:hover, &:active, &:active:focus, &:focus {
+    color: $text-color !important;
+    background-color: $white !important;
+    border: solid 1px $border-color !important;
+  }
+  .caret {
+    position: absolute;
+    right: 0;
+    margin-top: 7px;
+    background-image: url('/triangle-copy.svg');
+    width: 17px;
+    height: 17px;
+    top: 5px;
+    background-repeat: no-repeat;
+    border: none !important;
+  }
+}
+.rw-popup {
+  border: $border-color 1px solid;
+}
+
+.tooltip {
+	.tooltip-inner {
+    text-align: left !important;
+    overflow: hidden;
+    word-wrap: break-word;
+    background-color: $text-color;
+  }
+  .tooltip-arrow {
+    border-bottom-color: $text-color !important;
+    border-top-color: $text-color !important;
+  }
+}
+
+
+.is-animated {
+  -webkit-animation-name: slideInUp;
+  animation-name: slideInUp;
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes slideInUp {
+  0% {
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+    visibility: visible;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInUp {
+  0% {
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+    visibility: visible;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+.rc-slider-tooltip {
+  .rc-slider-tooltip-arrow {
+    border-bottom-color: $text-color !important;
+    border-top-color: $text-color !important;
+  }
+  .rc-slider-tooltip-inner {
+    background-color: $text-color;
+  }
+}

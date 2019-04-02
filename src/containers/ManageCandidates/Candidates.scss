@@ -1,0 +1,409 @@
+@import '../../theme/variables.scss';
+
+.scroll_bar_body {
+  position: relative;
+  overflow: scroll;
+  margin-right: -15px;
+  margin-bottom: -15px;
+}
+.modal_btns {
+  height: 42px;
+  @extend %textStyles;
+  width: fit-content;
+  padding: 15px;
+  font-size: 14px;
+  border-radius: 2px;
+  span {
+    position: relative;
+    top: -7px;
+  }
+}
+button.cancel_btn {
+  // border: 2px solid $border-color;
+  // color : $subtle-text-color;
+  // background-color: $light-grey-background;
+  margin-right: 20px;
+}
+textarea {
+  resize: none;
+}
+.modal_header_color {
+  background-color: $dark-grey-background;
+}
+
+.modal_title {
+  color: $text-color !important;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  .close_btn {
+    padding-right: 10px;
+    outline: none;
+    i {
+      font-size: 13px;
+      font-weight: lighter;
+      color: $subtle-text-color !important;
+    }
+  }
+}
+
+.pagination_section {
+  padding: 10px 15px 25px 35px;
+  background-color: $light-grey-background;
+}
+
+.candidates_row {
+  &:first-child {
+    border-top: 1px solid $border-color;
+  }
+  height: 71px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid $border-color;
+  @extend %textStyles;
+}
+
+.action_btn {
+  @extend %textStyles;
+  span {
+    position: relative;
+    top: -2px;
+  }
+  img {
+    position: relative;
+    top: 1.5px;
+    left: -5px;
+  }
+  height: 38px;
+  width: 120px;
+  position: relative;
+  top: 2px;
+  border-radius: 2px;
+}
+
+.unarchive_btn {
+  background-color: $white;
+  color: $secondary-color;
+  border-color: $secondary-color;
+  &:hover, &:focus {
+    background-color: $white !important;
+    color: $secondary-color !important;
+    border-color: $secondary-color !important;
+  }
+}
+
+.name_logo {
+  margin-right: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: $dark-grey-background;
+  color: $subtle-text-color;
+  text-align: center;
+  .name_initials {
+    position: relative;
+    top: 12px;
+    font-weight: 500;
+    font-size: 16px;
+  }
+}
+
+.logoImg {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 10px;
+}
+.overview_name_logo {
+  vertical-align: top;
+}
+.name_logo, .basic_info {
+  display: inline-block;
+}
+.company_overview_arrow {
+  margin-top: 17px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.basic_info {
+  margin: auto;
+  .overview_arrow {
+    position: absolute;
+    right: 45px;
+    cursor: pointer;
+  }
+  .name {
+    font-size: 15px;
+    color: $secondary-color;
+    > span {
+      &:first-child {
+        text-transform: capitalize;
+      }
+    }
+    span.exp {
+      font-size: 13px;
+      color: $subtle-text-color;
+    }
+    span.overview_exp {
+      position: relative;
+      top: -2px;
+    }
+  }
+  .company_title {
+    padding-bottom: 0;
+  }
+  .overview_name {
+    color: $text-color;
+  }
+  .title,
+  .company_name,
+  .company_location {
+    font-size: 13px;
+    color: $subtle-text-color;
+  }
+  .hidden {
+    visibility: hidden;
+  }
+  .company_link {
+    &:hover, &:focus, &:visited {
+      color: $subtle-text-color;
+      text-decoration: none;
+    }
+  }
+  .company_link_hidden {
+    visibility: hidden;
+  }
+  .company_name {
+    padding-top: 10px;
+  }
+}
+
+.date, .raised_by_name {
+  color: $text-color;
+  font-size: 14px;
+}
+.date {
+  img.clock_icon {
+    display: inline-block;
+    padding-right: 8px;
+  }
+  .archive_timestamp {
+    font-style: italic;
+    color: $subtle-text-color;
+    font-size: 13px;
+  }
+}
+.raised_by_date {
+  color: $subtle-text-color;
+  font-size: 13px;
+}
+
+.overlay {
+  background: rgba(23, 43, 77, 0.96);
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  z-index: 99999;
+}
+.content {
+  box-shadow: -3px 12px 26px rgba(62, 62, 62, 0.66);
+  width: 450px;
+  background: #fff;
+  float: right;
+  right: 0px;
+  left: 0px;
+  height: 100%;
+  .tab_request_section {
+    ul {
+      border-bottom: 1px solid $border-color !important;
+    }
+  }
+  .request_header {
+    background-color: $light-grey-background;
+    padding: 20px;
+    font-size: 16px;
+    color: $title-black-color;
+    .request_raised_by {
+      font-size: 14px;
+      color: $subtle-text-color;
+    }
+  }
+  .action_btn_section {
+    height: 71px;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    padding-right: 25px;
+    right: 0;
+    bottom: 0;
+    button {
+      height: 42px;
+      border-radius: 2px;
+      span {
+        position: relative;
+        top: -2px;
+      }
+    }
+    .unarchive_action_btn {
+      min-width: 150px;
+    }
+    .approve_btn {
+      padding: 10px;
+    }
+    .reject_btn {
+      margin-right: 40px;
+      padding: 10px;
+    }
+    .cancel_btn {
+      // border: 2px solid $border-color;
+      // color: $subtle-text-color;
+      // background-color: $light-grey-background;
+      margin-right: 20px;
+      min-width: 80px;
+    }
+  }
+  .extend_btn_section {
+    height: 65px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  // .notification_header {
+  //     background: $dark-grey-background;
+  //     color: $text-color !important;
+  //     padding: 10px 10px 10px 15px;
+  //     cursor: auto;
+  //     // height: 53px;
+  //     border-bottom: 1px solid $border-color;
+  //     .mark_all_header_content {
+  //         padding: 10px;
+  //         text-align: right;
+  //         a {
+  //             font-size: 14px;
+  //             color: $secondary-color;
+  //             &:hover {
+  //                 color: $secondary-color;
+  //                 cursor: pointer;
+  //                 text-decoration: none;
+  //             }
+  //         }
+  //     }
+  // }
+  .close_img {
+      width: 20px;
+      height: 20px;
+      position: absolute;
+      right: 475px;
+      top: 20px;
+      cursor: pointer;
+  }
+}
+
+.overview_details {
+  @extend %textStyles;
+  padding: 25px 25px 15px 25px;
+  .associated_person {
+    padding: 10px 25px;
+    border-bottom: solid 1px $border-color;
+    height: 71px;
+  }
+  .candidate_details {
+    padding: 10px 15px 15px 15px;
+    border-radius: 2px;
+    box-shadow: 0 6px 8px 0 rgba(94, 108, 132, 0.1);
+    background-color: #ffffff;
+    border: solid 1px $border-color;
+  }
+  .extend_unarchive_title {
+    font-size: 15px;
+    color: $title-black-color;
+  }
+  .request_details {
+    padding-top: 25px;
+    .details_section {
+      padding-bottom: 20px;
+      .details_header {
+        font-size: 14px;
+        color: $subtle-text-color;
+        font-weight: 500;
+        padding-bottom: 2px;
+      }
+    }
+    .delete_request {
+      font-size: 13px;
+      font-style: italic;
+      color: $subtle-text-color;
+      padding-bottom: 8px;
+    }
+    .unarchive_reminder {
+      padding-bottom: 5px;
+    }
+    .delete_timestamp, .reason_details {
+      .clock_icon {
+        display: inline-block;
+        padding-right: 8px;
+      }
+      font-size: 14px;
+      color: $text-color;
+    }
+    .reminder_timestamp {
+      padding-bottom: 15px;
+    }
+    .extend_btn {
+      color: $secondary-color;
+      font-size: 13px;
+      cursor: pointer;
+    }
+    .extend_date_section {
+      padding: 10px 0 0 0;
+      textarea {
+        resize: none;
+      }
+    }
+  }
+  .person_info {
+    width: 60%;
+   display: inline-block;
+  }
+  .person_status {
+    width: 35%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    position: relative;
+    top: 8px;
+    left: 20px;
+    .request_status {
+      min-width: 100px;
+      min-height: 30px;
+      border-radius: 2px;
+      margin: 0 auto;
+      text-align: center;
+      span {
+        vertical-align: middle;
+      }
+    }
+    .approved {
+      border: 1px solid $client;
+      color: $client;
+      background-color: rgba(2, 184, 117, 0.06);
+    }
+    .waiting {
+      border: 1px solid $prospect;
+      background-color: rgba(255, 133, 31, 0.06);
+      color: $prospect;
+    }
+    .rejected {
+      border: 1px solid $not-interested;
+      color: $not-interested;
+      background-color: rgba(254, 114, 114, 0.06);
+    }
+  }
+}
+
+.request_details_section {
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+}

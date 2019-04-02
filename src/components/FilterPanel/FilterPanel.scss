@@ -1,0 +1,60 @@
+@import '../../theme/variables.scss';
+
+.container {
+  background: $white;
+  box-shadow: 0 4px 4px 0 rgba(94, 108, 132, 0.1);
+  .filterTitle {
+    color: $primary-color;
+    font-size: 14px;
+    font-weight: 700;
+
+  }
+  .header{
+    color: $primary-color;
+  }
+  span {
+    color: $primary-color;
+  }
+  .operator {
+    padding: 0 5px;
+    display: inline-block;
+    font-size: 15px;
+    color: $primary-color;
+  }
+  .fieldOperator {
+    color: $subtle-text-color;
+    font-weight: 500;
+    padding: 0 5px;
+    width: 15%;
+    display: inline-block;
+  }
+  .filters {
+    border: 1px solid $border-color;
+    padding: 0 8px 2px 8px;
+    background: $border-color;
+    display: inline-block;
+    border-radius: 2px;
+  }
+  .showHeight {
+    max-height: 50px;
+    overflow: hidden;
+  }
+  .showAll{
+    text-align: center;
+    cursor: pointer;
+    h5{
+      font-size: 15px;
+      color: $secondary-color;
+      font-weight: 400;
+      margin-bottom: 5px;
+    }
+  }
+  .selected_filters {
+    display: inline-block;
+    font-size: 15px;
+    color: $primary-color;
+  }
+}
+.display_contents {
+  display: contents;
+}

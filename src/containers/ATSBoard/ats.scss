@@ -1,0 +1,86 @@
+@import '../../theme/variables.scss';
+
+
+.undoIcon {
+  font-size: 20px;
+  font-weight: 400;
+  color: $primary-color;
+  margin-right: 20px;
+  margin-top: 3px;
+  &:focus {
+    outline: none;
+  }
+  &:hover {
+    color: $primary-color;
+  }
+  .historyIcon {
+    &:focus {
+      outline: none;
+    }
+    &:hover {
+      color: $primary-color;
+    }
+  }
+}
+
+
+ul {
+  li {
+    a:focus {
+      outline: none;
+    }
+  }
+}
+
+.fontStyle {
+  font-size: $font-size-base;
+  color: $lit-grey-font;
+}
+
+.no_results_found_img {
+  width: 30px;
+  height: 30px;
+}
+
+.loader {
+	left: 40%;
+	position: absolute;
+	right: auto;
+	top: 50%;
+	z-index: 999;
+}
+
+.modal_header {
+  background: $background-clr !important;
+ }
+
+.historyModal {
+  .modal_title {
+    color: $text-color;
+    font-family: 'acumin-pro';
+    font-size: 16px;
+    font-weight: 300;
+  }
+  .themeColor{
+    color: $secondary-color;
+    font-weight: normal;
+  }
+
+  .historyOrder {
+    font-size: 6px;
+    padding-right: 7px;
+    color: $primary-color;
+  }
+  .historyDateTime {
+    color: #747e89;
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .historyDescription {
+    font-size: 12px;
+    .userIcon {
+      color: #909292;
+      font-size: 22px;
+    }
+  }
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="17px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Email/Dark</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Email/Dark" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="mail" transform="translate(0.000000, 2.000000)" stroke="#5E6C84" stroke-width="1.5">
+            <path d="M1.65277778,0 L14.875,0 C15.7840278,0 16.5277778,0.74375 16.5277778,1.65277778 L16.5277778,11.5694444 C16.5277778,12.4784722 15.7840278,13.2222222 14.875,13.2222222 L1.65277778,13.2222222 C0.74375,13.2222222 0,12.4784722 0,11.5694444 L0,1.65277778 C0,0.74375 0.74375,0 1.65277778,0 Z" id="Shape"></path>
+            <polyline id="Shape" points="16.5277778 1.65277778 8.26388889 7.4375 0 1.65277778"></polyline>
+        </g>
+    </g>
+</svg>

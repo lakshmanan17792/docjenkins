@@ -1,0 +1,48 @@
+@import '../../theme/variables.scss';
+
+.email_activity_section {
+  .compose_email {
+    background: $white;
+    height: 70px;
+    button {
+      float: right;
+      margin-top: 30px;
+      margin-right: 15px;
+      border-radius: 2px !important;
+      font-size: 14px;
+      width: 170px;
+      height: 35px;
+      padding-left: 7px;
+      padding-right: 7px;
+    }
+    .refresh_btn {
+      width: 50px;
+    }
+  }
+}
+
+.search {
+  padding-left: 5rem;
+  padding-top: 1.4rem;
+}
+
+.no_results_found_activity {
+  margin: 5% auto !important;
+  img {
+      height: 100px;
+      width: 100px;
+  }
+  .sub_head {
+      color: $lit-blue-grey-font;
+      font-size: 2em;
+      font-weight: 400;
+      padding: 10px 0;
+      text-align: center;
+  }
+  .empty_message {
+      color: $lit-blue-grey-font;
+      font-size: 1.5em;
+      font-weight: 400;
+      text-align: center;
+  }
+}

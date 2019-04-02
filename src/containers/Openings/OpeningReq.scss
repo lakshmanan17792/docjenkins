@@ -1,0 +1,17 @@
+@import './../../theme/variables.scss';
+.submitButton {
+    background-color: $primary-color;
+    border-color: $primary-color !important;
+    color: #fff;
+    border: 1px solid $primary-color;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 44px;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 600;
+    box-shadow: 0 1px 0px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.12);
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-top: 30px;
+}

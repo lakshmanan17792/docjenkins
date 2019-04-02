@@ -1,0 +1,33 @@
+@import "~react-select/dist/react-select.css";
+@import "../variables.scss";
+
+.Select-control {
+  border: none !important;
+  border-bottom: 1px solid $border-color !important;
+  border-color: none !important;
+  box-shadow: none !important;
+  span {
+    .Select-value  {
+      padding-left: 0 !important;
+    }
+    .Select-input {
+      padding-left: 0 !important;
+    }
+  }
+  input {
+    padding: 0 !important;
+  }
+  .Select-placeholder {
+    display: inline-block !important;
+    padding-left: 0;
+    color: $subtle-text-color;
+    opacity: 0.7;
+  }
+  .Select-input {
+    padding: 0 !important;
+  }
+}
+
+.Select-clear-zone {
+  display: none !important;
+}

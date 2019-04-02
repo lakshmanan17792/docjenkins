@@ -1,0 +1,42 @@
+@import '../../theme/variables.scss';
+
+.snackbar {
+  z-index: 1000;
+  padding: 0 100px;
+  background-color: $white;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  box-shadow: -3px -5px 5px 0px rgba(62, 62, 62, 0.14);
+  @extend%textStyles;
+  .block {
+    display: inline-block;
+    font-weight: 400;
+    padding: 10px 20px;
+  }
+  .btn_save {
+    background: $primary-btn-color;
+    color: $white;
+    font-size: 13px;
+    border: 1px solid $primary-btn-color;
+    padding: 8px 25px;
+    border-radius: 2px;
+  }
+  .btn_disard {
+    background: transparent;
+    color: $primary-btn-color;
+    font-size: 13px;
+    border: 1px solid $primary-btn-color;
+    padding: 8px 25px;
+    border-radius: 2px;
+  }
+  .btn_disard:disabled {
+    cursor: not-allowed;
+    opacity: 0.65;
+  }
+}
+.container {
+  min-height: calc(100vh - 50px);
+    max-height: calc(100vh - 50px);
+    background-color: $white;
+}

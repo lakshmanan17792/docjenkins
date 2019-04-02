@@ -1,0 +1,24 @@
+.configur_email {
+  height: 21px;
+  text-align: center;
+  color: #fff;
+  background-color: #58abc3;
+  position: absolute;
+  width: 100%;
+  padding-top: 1px;
+  z-index: 100;
+  a {
+    color: #fff;
+    text-decoration: underline;
+    &:hover {
+      color: #fff !important;
+      text-decoration: underline !important;
+    }
+  }
+  .configur_email_cls_btn {
+    float: right;
+    margin: 3px 5px 0 0;
+    font-size: 13px;
+    cursor: pointer;
+  }
+}

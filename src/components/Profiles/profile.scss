@@ -1,0 +1,527 @@
+@import '../../theme/variables.scss';
+
+.profile_container {
+  padding-right: 5px;
+  font-family: "Open Sans";
+  .profile_card {
+    background-color: $profile-card-color;
+    border-radius: 2px;
+    border: 1px solid rgba(151, 151, 151, 0.16);
+    max-height: 210px;
+    min-height: 185px;
+    padding-top: 15px;
+    padding-right: 5px;
+    .add_icon {
+      border-radius: 50%;
+      height: 16px;
+      outline: none;
+      position: absolute;
+      right: 22px;
+      top: 17px;
+      width: 16px;
+      cursor: pointer;
+      &:focus {
+        outline: none;
+      }
+      cursor: pointer;
+      .add_circle_icon {
+        border-radius: 50%;
+        display: block;
+        font-size: 10px;
+        height: 20px;
+        line-height: 18px;
+        margin: -3px 0px 2px -1.25px;
+        text-align: center;
+        width: 15px;
+      }
+      &.selected {
+        // background-color: $lit-green-background;
+        border: 2px solid $green;
+        .add_circle_icon {
+          color: $green;
+        }
+      }
+      &.not_selected {
+         border: 2px solid $primary-color;
+        .add_circle_icon {
+          color: $primary-color;
+        }
+      }
+    }
+    .score {
+      color: $text-color;
+      // color: #a09c9c;
+      cursor: pointer;
+      bottom: 14px;
+      font-size: 29px;
+      height: 35px;
+      // position: absolute;
+      right: 10px;
+      text-align: center;
+      width: 35px;
+      font-weight: 600;
+    }
+    .profile_data {
+      padding-right: 0px;
+      .profile_name {
+        color: $text-color;
+        font-size: 16px;
+        cursor: pointer;
+        &.shortlisted_name {
+          color: $green;
+        }
+        a{
+          color: $text-color;
+          &:focus{
+            color: $primary-color;
+          }
+        }
+      }
+      .experience {
+        color: $secondary-font-color;
+        font-size: 13px;
+        padding-left: 5px;
+        width: 60px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+      }
+      .profile_title {
+        color: $primary-font-color;
+        font-size: 13px;
+        margin-top: 5px;
+        .title_unavailable {
+          visibility: hidden;
+        }
+      }
+      .company_name {
+        color: $primary-font-color !important;
+        font-size: 13px;
+        text-transform: capitalize;
+        font-weight: 600;
+        width: 100%;
+      }
+      .contact {
+        border: 1px solid #bdc2cc;
+        border-radius: 5px;
+        margin-top: 5px;
+        div {
+          text-align: center;
+          padding: 2px 10px;
+          width: 50%;
+        }
+        .contact_email {
+          // border-right: .5px solid #39444d;
+          .email{
+            cursor: pointer;
+          }
+        }
+        .contact_phone {
+          border-left: 1px solid #bdc2cc;
+        }
+        i {
+          font-size: 15px;
+          color: $secondary-color;
+          &.notfound {
+            opacity: 0.4;
+          }
+        }
+      }
+      .location {
+        font-size: 12px;
+        color: $secondary-font-color;
+        font-weight: 600;
+      }
+      .secondary_color {
+        color: $secondary-font-color;
+        font-weight: normal;
+      }
+      .skill_container {
+        color: $primary-font-color;
+        font-size: 12px;
+        // margin-top: 5px;
+        height: 26px;
+        overflow: hidden;
+        text-transform: capitalize;
+        .skill {
+          border-radius: 4px;
+          background-color: $light-gray;
+          display: inline-flex;
+          margin: 5px 5px 0 0;
+          .name {
+            background-color: $light-gray;
+            padding: 2px 5px 2px 5px;
+            border-radius: 4px 0px 0px 4px;
+            display: inline-block;
+            font-size: 10px;
+          }
+          .experience {
+            background-color: $gray;
+            padding: 2px 10px 2px 10px;
+            border-radius: 0px 4px 4px 0px;
+            display: inline-block;
+          }
+        }
+        .language {
+          border-radius: 4px;
+          display: inline-block;
+          margin: 5px 5px 0 0;
+          .name {
+            background-color: $subtle-text-color;
+            padding: 2px 5px 3px 5px;
+            border-radius: 4px;
+            display: inline-block;
+            font-size: 10px;
+          }
+        }
+      }
+    }
+    .icon_container {
+      min-height: 50px;
+      margin-top: 5px;
+      margin-bottom: 5px;
+      border-top: 1px solid rgba(151, 151, 151, 0.16);
+      padding-top: 5px;
+      .social_icon {
+        margin-right: 9px;
+        font-size: 16px;
+        img {
+          width: 18px;
+          margin-top: 4px;
+          height: 25px;
+          display: inline-block;
+        }
+      }
+      .active_link {
+        a {
+          color: $icon-color;
+          &:hover {
+            color: $primary-color;
+          }
+        }
+      }
+      .disable_link {
+        display: none;
+      }
+    }
+  }
+}
+
+.dropDownDiv {
+  button {
+  background-color: transparent;
+  border: none;
+  &:hover, &:focus, &:active {
+  background-color: transparent;
+  border: none;
+  }
+  }
+  .editDropdown {
+  background: transparent !important;
+  border: 0;
+  }
+
+  ul {
+  top: 25px;
+  min-width: 75px;
+  }
+  }
+
+.ellipsis {
+  width: 250px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.ellipsis_name {
+  max-width: 140px !important;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 1300px) and (min-width: 1200px) {
+  .ellipsis_name {
+    max-width: 140px !important;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .profile_card {
+    .score {
+      bottom: 10px !important;
+    }
+  }
+}
+.score_block {
+  font-size: 14px;
+  // border-bottom: 1px solid $lit-border-clr;
+  // margin-top: 10px;
+  // margin-bottom: 20px;
+  padding-bottom:15px;
+  width: 380px;
+  .progress_score {
+    padding: 0 10px;
+  }
+  .score_circle{
+    width: 85%;
+    margin: auto;
+    font-size: 20px;
+  }
+  .score_text {
+    font-size: 13px;
+    text-align: center;
+    line-height: 16px;
+    padding: 0;
+    width: 100%;
+    color: $text-color;
+    @extend %textStyles;
+  }
+}
+
+/* End - Media Queries */
+
+.selectedBorder {
+  border-radius: 2px;
+  border: 2px solid $secondary-color !important;
+  margin: 0px !important;
+}
+
+.txt_overflow {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 200px;
+}
+
+.w_44 {
+  width: 44px;
+}
+
+.containerHeight {
+  min-height: 290px !important;
+}
+
+.profile_container_new {
+  padding-right: 0;
+  min-height: 250px;
+  .profile_card_new {
+    background-color: $profile-card-color;
+    border-radius: 2px;
+    min-height: 220px;
+    box-shadow: 0 6px 8px 0 rgba(94, 108, 132, 0.1);
+    margin: 2px;
+    .title_unavailable {
+      visibility: hidden;
+    }
+    .profile_logo_container {
+      display: inline-flex;
+      min-height: 60px;
+      height: 60px;
+      margin-bottom: 5px;
+      .profileNameLogo {
+        width: 50px;
+        height: 50px;
+        background: $dark-grey-background;
+        color: $subtle-text-color;
+        border-radius: 50%;
+        text-align: center;
+        vertical-align: middle;
+        padding-top: 12px;
+        font-size: 18px;
+        font-weight: 600;
+      }
+      .profileName {
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+        text-transform: capitalize;
+        font-size: 17px;
+        color: $text-color;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        cursor: pointer;
+        white-space: nowrap;
+        width: 175px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        a {
+          color: $text-color !important;
+          text-decoration: none;
+        }
+      }
+      .profileTitleName {
+        text-transform: capitalize;
+        font-size: 14px;
+        color: $subtle-text-color;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+      }
+    }
+    .add_icon {
+      border-radius: 50%;
+      height: 16px;
+      outline: none;
+      position: absolute;
+      right: 22px;
+      top: 17px;
+      width: 16px;
+      cursor: pointer;
+      &:focus {
+        outline: none;
+      }
+      cursor: pointer;
+      .add_circle_icon {
+        border-radius: 50%;
+        display: block;
+        font-size: 10px;
+        height: 20px;
+        line-height: 18px;
+        margin: -3px 0px 2px -1.25px;
+        text-align: center;
+        width: 15px;
+      }
+      &.selected {
+        // background-color: $lit-green-background;
+        border: 2px solid $green;
+        .add_circle_icon {
+          color: $green;
+        }
+      }
+      &.not_selected {
+         border: 2px solid $primary-color;
+        .add_circle_icon {
+          color: $primary-color;
+        }
+      }
+    }
+    .companyName {
+      margin: 5px 0 0;
+      font-size: 14px;
+      color: $subtle-text-color;
+      min-height: 20px;
+      .txt_overflow {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        width: 260px;
+      }
+    }
+    .locationName {
+      font-size: 14px;
+      color: $subtle-text-color;
+      min-height: 20px;
+    }
+    .skillContainer {
+      height: 30px;
+      overflow: hidden;
+      text-transform: capitalize;
+      .skill {
+        border-radius: 2px;
+        background-color: $light-grey-background;
+        display: inline-flex;
+        margin: 5px 5px 0 0;
+        .name {
+          font-size: 13px;
+          color: $subtle-text-color;
+          margin: 4px 10px 4px 10px;
+          vertical-align: middle;
+        }
+      }
+    }
+    .languageContainer {
+      height: 30px;
+      overflow: hidden;
+      .language {
+        border-radius: 2px;
+        background-color: $light-grey-background;
+        display: inline-flex;
+        margin: 5px 5px 0 0;
+        .name {
+          font-size: 13px;
+          color: $subtle-text-color;
+          margin: 4px 10px 4px 10px;
+          vertical-align: middle;
+          text-transform: capitalize;
+        }
+      }
+    }
+    .divider {
+      color: $border-color !important;
+      margin: 5px;
+    }
+    .divider2 {
+      color: $border-color !important;
+      margin: 5px 0 0 0;
+      border-top: 1px solid $border-color;
+    }
+    .percentageContainer {
+      .progress {
+        height: 6px !important;
+      }
+    }
+    .scoreContainer {
+      //display: inline-flex;
+      .overAllScore {
+        font-size: 12px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: $subtle-text-color;
+      }
+    }
+    .scoreCard {
+      // position: relative;
+      // right: 0;
+      // width: 50px;
+      .scoreImage {
+        width: 13%;
+        float: right;
+        padding-top: 5px;
+      }
+    }
+    .social {
+      height: 40px;
+      .social_1 {
+        .active_link {
+          padding: 5px;
+          line-height: 35px;
+          cursor: pointer;
+        }
+        .disable_link {
+          display: none;
+        }
+      }
+      .social_2 {
+        padding-right: 0px;
+        .contact_email, .contact_phone {
+          float: right;
+          border-left: 1px solid $border-color;
+          height: 40px;
+        }
+        img {
+          padding: 7px 10px 7px 10px;
+          margin-top: 5px;
+          cursor: pointer;
+          &.notfound {
+            opacity: 0.4;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="17px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Globe/Dark</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Globe/Dark" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="globe" stroke="#5E6C84" stroke-width="1.5">
+            <circle id="Oval" cx="8.5" cy="8.5" r="8.5"></circle>
+            <path d="M0,8.5 L17,8.5" id="Shape"></path>
+            <path d="M8.5,1.88737914e-16 C10.6260883,2.32759996 11.8343398,5.34822877 11.9,8.5 C11.8343398,11.6517712 10.6260883,14.6724 8.5,17 C6.37391168,14.6724 5.16566015,11.6517712 5.1,8.5 C5.16566015,5.34822877 6.37391168,2.32759996 8.5,0 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

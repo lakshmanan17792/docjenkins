@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Stackoverflow</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Stackoverflow" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="stackoverflow" transform="translate(2.000000, 0.000000)" fill-rule="nonzero">
+            <g id="Group" transform="translate(1.894737, 0.000000)" fill="#FFC107">
+                <rect id="Rectangle-path" x="0.0282105263" y="14.2392632" width="7.09277193" height="1.51466667"></rect>
+                <rect id="Rectangle-path" transform="translate(10.559894, 3.658820) rotate(170.154318) translate(-10.559894, -3.658820) " x="9.8025217" y="0.112227062" width="1.51474499" height="7.09318492"></rect>
+                <polygon id="Shape" points="0.230315789 11.4928772 7.29277193 12.1441053 7.15354386 13.6520351 0.0910877193 13.0019298"></polygon>
+                <rect id="Rectangle-path" transform="translate(4.136478, 9.977860) rotate(105.046570) translate(-4.136478, -9.977860) " x="3.3791742" y="6.43158262" width="1.51460784" height="7.09255549"></rect>
+                <polygon id="Shape" points="2.54329825 4.83126316 8.65249123 8.43435088 7.88336842 9.73905263 1.77305263 6.13596491"></polygon>
+                <polygon id="Shape" points="6.15424561 1.51336842 10.1503158 7.37329825 8.89950877 8.22663158 4.90231579 2.36670175"></polygon>
+            </g>
+            <polygon id="Shape" fill="#B0BEC5" points="11.2444912 17.9995439 0.0164210526 17.9995439 0.0164210526 11.2627018 1.13922807 11.2627018 1.13922807 16.8767368 10.1216842 16.8767368 10.1216842 11.2627018 11.2444912 11.2627018"></polygon>
+        </g>
+    </g>
+</svg>

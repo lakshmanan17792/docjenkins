@@ -1,0 +1,22 @@
+@import './../../theme/variables.scss';
+
+.no_results_found {
+    margin: 10% auto;
+    img {
+      height: 100px;
+      width: 100px;
+    }
+    .sub_head {
+      color: $lit-blue-grey-font;
+      font-size: 2em;
+      font-weight: 400;
+      padding: 10px 0;
+      text-align: center;
+    }
+    .empty_message {
+      color: $lit-blue-grey-font;
+      font-size: 1.5em;
+      font-weight: 400;
+      text-align: center;
+    }
+  }

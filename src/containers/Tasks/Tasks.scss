@@ -1,0 +1,526 @@
+@import './../../theme/variables.scss';
+@import './../../components/FormComponents/FormComponents.scss';
+$page-number-color: #284255;
+
+$primary-color:#172B4D; //#02B875;
+$secondary-color: #1F9AFF;
+$light-grey-background: #F4F5F7;
+$dark-grey-background: #EAECF0;
+$text-color: #172B4D;
+$subtle-text-color: #5E6C84;
+$error-color: #FF5766;
+$primary-btn-color: #02B875;
+$secondary-btn-color: #02B875;
+$black: #000000;
+$lit-border-color: #e5e5e5;
+$dark-border-color: #b9b8b8;
+$secondary-color: $secondary-color;//#9dbbd9;
+
+
+.viewAllTasks {
+  padding-top: 4px;
+  .count_n_pager {
+    padding-top: 4px;
+  }
+  .count_n_search {
+    display: flex;
+    flex-wrap: nowrap;
+    .total_count {
+      display: inline-block;
+      font-size: 1.2em;
+      font-weight: 400;
+      line-height: 3;
+      height: 40px;
+    }
+    .search_bar {
+      padding-left: 10px;
+      min-width: 70%;
+    }
+  }
+  .no_task_msgt {
+    display: inline-block;
+    font-size: 1.2em;
+    font-weight: 400;
+    line-height: 1.8;
+    padding: 10px 15px 0;
+  }
+  .dropdown {
+    background-color: $subtle-text-color !important;
+    border-color: $subtle-text-color !important;
+    color: $dark-grey !important;
+    padding: 0px !important;
+    text-transform: uppercase;
+  }
+  .new_task_icon {
+    margin: 0 15px;
+    i {
+      // @include fontSize(1.86em); //26px
+      cursor: pointer;
+    }
+    .add_btn {
+      padding: 5px;
+      border-radius: 2px !important;
+      border-color: #28b875;
+      vertical-align: middle;
+    }
+  }
+
+  .new_task {
+    box-shadow: 0 1px 0px rgba($black, 0.12),
+    0 1px 1px rgba($black, 0.12);
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 600;
+    padding: 4px 50px 4px 7px !important;
+    float: none !important;
+    height: 33px;
+    border-radius: 2px !important;
+  }
+  .new_task_btn {
+    display: none;
+    font-size: 2.7rem;
+    padding-top: 6px;
+    color: $primary-color;
+  }
+  .task {
+    background: $white;
+    border-radius: 2px;
+    min-height: 240px;
+    max-height: 240px;
+    box-shadow: 0 6px 8px 0 rgba(189, 208, 223, 0.5) !important;
+    .content {
+      padding: 5px 15px 2px;
+      .title {
+        color: $primary-color;
+        @include fontSize(1.145em);
+        font-weight: 400;
+        text-transform: capitalize;
+        width: 100%;
+      }
+      .info_label {
+        color: $subtle-text-color;
+        font-weight: 600;
+        text-transform: capitalize;
+        font-size: 13px;
+        width: 100%;
+      }
+      .info {
+        color: $subtle-text-color;
+        }
+    }
+    .footer {
+      border-top: 1px solid $dark-border-color;
+    }
+  }
+
+ .pager {
+   margin: 0 0 0 10px;
+   white-space: nowrap;
+   vertical-align: middle;
+   li {
+     &:first-child,
+     &:last-child {
+       a {
+         color: $sub-title-color;
+         &:hover,
+         &:focus {
+           color: $sub-title-color;
+         }
+       }
+     }
+     a {
+       border-color: $border-color;
+       border-radius: 2px !important;
+       color: $secondary-color;
+       outline: none;
+       padding: 5px 5px !important;
+       &:hover,
+       &:focus {
+         border-color: $border-color;
+         color: $secondary-color;
+         background-color: $white;
+       }
+       span {
+         padding: 0px 5px;
+        //  vertical-align: middle;
+       }
+     }
+   }
+   li.disabled {
+     a {
+       // border-color: $lit-grey-font;
+       color: $sub-title-color !important;
+       pointer-events: none;
+       opacity: 0.7;
+     }
+   }
+   .page_no {
+     margin: 5px;
+     a {
+       border-color: $secondary-color;
+       color: $white;
+       background-color: $secondary-color;
+       font-weight: bold;
+       padding: 5px 10px !important;
+       cursor: default;
+       &:hover,
+       &:focus {
+         border-color: $secondary-color;
+         color: $white;
+         background-color: $secondary-color;
+       }
+     }
+   }
+ }
+  .no_results_found {
+    margin: 10% auto;
+    img {
+      height: 100px;
+      width: 100px;
+    }
+    .sub_head {
+      color: $subtle-text-color;
+      font-size: 2em;
+      font-weight: 400;
+      padding: 10px 0;
+      text-align: center;
+    }
+    .empty_message {
+      color: $subtle-text-color;
+      font-size: 1.5em;
+      font-weight: 400;
+      text-align: center;
+    }
+  }
+
+  .menuActive {
+    background-color: $dark-grey-background;
+    padding: 8px;
+    a {
+      color: $text-color !important;
+    }
+    &:hover {
+      background-color: $dark-grey-background;
+    }
+  }
+
+  .menuInActive {
+    background-color: $white;
+    padding: 8px;
+    &:hover {
+      background-color: $dark-grey-background;
+    }
+  }
+  .scroll_bar_body{
+    position: relative !important;
+    overflow: scroll !important;
+    margin-right: -15px !important;
+    margin-bottom: -15px !important;
+    max-height: calc((100vh - 140px) + 15px) !important;
+    max-height: calc((100vh - 140px) + 15px) !important;
+  }
+}
+
+.save_new_task {
+  padding: 0 30px;
+  .modal_body {
+      padding: 0 15px;
+      textarea {
+        max-width: 100%;
+      }
+  }
+  .modal_heading {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .modal_title {
+      color: $primary-color !important;
+      text-align: center
+  }
+  .modal_header {
+      background: $dark-grey-background !important;
+  }
+  .description {
+      height: 100px;
+      padding: 10px;
+  }
+  .select_vacancy_size {
+      ul {
+          left: auto;
+          position: absolute;
+          right: 0;
+      }
+  }
+  .task_filter {
+    padding: 8px;
+  }
+}
+
+.view_task {
+  @extend .scroll;
+  min-height: calc(100% - 50px);
+  padding: 8px;
+  .options_btn {
+    font-size: 20px;
+    color: $primary-color;
+  }
+  .task_section.white_bg {
+    background-color: $white;
+    margin-top: 10px;
+    border-radius: 2px;
+  }
+  .task_container {
+      float: left;
+      background-color: $white;
+      padding: 30px 45px;
+      width: 100%;
+  }
+  .head {
+      color: $light-blue;
+      font-size: .9em;
+      font-weight: 700;
+      text-transform: uppercase;
+  }
+  .task_details {
+    border-bottom: 1px solid $dark-border-color;
+    margin-top: 5px;
+    padding: 5px 0 10px;
+  }
+
+  .task_status_section {
+    margin-top: 5px;
+  }
+
+  .task_title {
+    display: inline-block;
+    color: $primary-color;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+  }
+
+  .task_title_width {
+    width: 490px !important;
+  }
+
+  .task_heading {
+    color: $secondary-color;
+    font-weight: 800;
+    font-size: 14px;
+  }
+
+  .word_wrap {
+    word-wrap: break-word
+  }
+
+  .task_data {
+    color: $subtle-text-color;
+    font-size: 13px;
+    font-weight: 400;
+    min-height: 80px;
+    text-align: justify;
+  }
+}
+
+.edit_btn, .save_btn {
+  width: 100%;
+  height: 35px;
+  font-size: 12px;
+  // font-weight: 600;
+  padding-left: 7px;
+  padding-right: 7px;
+  border-radius: 2px;
+  @extend %textStyles;
+  i {
+    padding-right: 7px;
+    font-size: 14px;
+    position: relative;
+    top: 1px;
+  }
+}
+.save_btn {
+  i {
+    top: 0.5px;
+  }
+}
+
+.activity_timeline {
+  font-size: 1em !important;
+  padding: 0px 2px !important;
+  margin: 0p 10px !important;
+  width: 100% !important;
+  >div:first-child {
+      background: $lit-border-color !important;
+      width: 1px !important;
+  }
+}
+
+.activity_timeline_detail {
+  font-size: 1em;
+  font-weight: 600;
+  padding: 5px;
+  text-transform: capitalize;
+}
+
+.activity_timeline_detail_head {
+  font-weight: 500;
+}
+
+.no_activity_found {
+  margin-left: 44%;
+  margin-top: 4%;
+}
+
+.ellipsis {
+  width: 260px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.view_task_scroll {
+  min-height: calc(100vh - 550px);
+  max-height: calc(100vh - 400px);
+}
+
+.page_goto {
+  padding-left: 10px;
+  vertical-align: middle;
+  input {
+    border: 1px solid $border-color;
+    width: 70px;
+    border-radius: 2px;
+    height: 33px;
+    margin: 0;
+    padding: 0 10px;
+    text-align: center;
+  }
+}
+.page_no_height {
+  a {
+    min-height: 33px;
+  }
+}
+.page_no_width {
+  a {
+    min-width: 50px;
+  }
+}
+.task_actions {
+  text-align: right;
+  padding: 5px 15px 0 15px;
+  // width: 490px;
+
+}
+.tab_section {
+  ul {
+    background-color: $white !important;
+    li {
+      border: none;
+      a {
+        text-decoration: none; // border: none !important;
+        margin-right: 0;
+        line-height: unset;
+        padding-left: 35px;
+        padding-right: 35px;
+        font-weight: normal;
+        font-size: 14px;
+        color: $text-color;
+        &:hover,
+        &:focus {
+          // color: $primary-color;
+          // background: transparent;
+          // border-color: transparent;
+        }
+      }
+    }
+  }
+  >div {
+    background-color: #fff !important;
+  }
+}
+
+.modal_header_color {
+  background-color: #E9EBF0;
+}
+
+.modal_title {
+  color: $text-color !important;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  .close_btn {
+    padding-right: 10px;
+    outline: none;
+    i {
+      font-size: 13px;
+      font-weight: lighter;
+      color: #a4abb4 !important;
+    }
+  }
+}
+
+.customTooltip {
+  .tooltip {
+    text-align: left !important;
+  }
+}
+
+.circleContainer {
+  display: flex;
+  .circle {
+    border-radius: 50%;
+    padding-top: 5px;
+    text-align: center;
+    font-weight: 600 !important;
+    margin-right: 1px;
+    font-size: 11px !important;
+    width: 25px;
+    height: 25px;
+    background-color: #EAECF0;
+    color: #5E6C84 !important;
+    border-radius: 50%;
+
+  }
+}
+
+@media screen and (min-height: 700px) and (max-height: 900px) {
+  .view_task_scroll {
+    min-height: calc(100vh - 450px);
+    max-height: calc(100vh - 400px);
+  }
+}
+
+@media screen and (max-height: 700px) {
+  .view_task_scroll {
+    min-height: calc(100vh - 275px);
+    max-height: calc(100vh - 275px);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .viewAllTasks {
+    .count_n_pager {
+      padding-bottom: 5px;
+    }
+    .task {
+      .content {
+        & > div:first-child {
+          padding-bottom: 5px !important;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 551px) {
+  .new_task {
+    display: none;
+  }
+  .new_task_btn {
+    display: inline-block !important;
+  }
+}
+.width45 {
+  width: 45%;
+}

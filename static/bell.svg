@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="17px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>bell</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Stash" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Assets/Report" transform="translate(-1312.000000, -27.000000)" stroke="#70808D" stroke-width="2">
+            <g id="Header">
+                <g id="Notifications-Icon" transform="translate(1300.000000, 15.000000)">
+                    <g id="bell" transform="translate(13.000000, 13.000000)">
+                        <path d="M15,11.25 L0,11.25 C1.24264069,11.25 2.25,10.2426407 2.25,9 L2.25,5.25 C2.25000004,2.35050509 4.60050509,7.82310953e-08 7.5,7.82310956e-08 C10.3994949,7.82310959e-08 12.75,2.35050509 12.75,5.25 L12.75,9 C12.75,10.2426407 13.7573593,11.25 15,11.25 Z M8.7975,14.25 C8.52915168,14.7126033 8.03480145,14.9973422 7.5,14.9973422 C6.96519855,14.9973422 6.47084832,14.7126033 6.2025,14.25 L8.7975,14.25 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,299 @@
+@import "~react-widgets/lib/scss/react-widgets";
+@import "../variables.scss";
+$text-color: #172B4D;
+$secondary-color: #1f9aff;
+
+.rw-multiselect, .rw-dropdown-list.rw-widget {
+  border-bottom: 1px solid $border-color;
+}
+.rw-widget-input {
+  background: $white;
+  border: none;
+  box-shadow: none;
+  outline: none;
+  height: 35px;
+  // padding: 3px 5px;
+  padding: 0;
+  input {
+    margin-top: 2px;
+    box-shadow: none !important;
+    padding: 0px 2px !important;
+    height: 24px !important;
+  }
+  &:focus {
+    box-shadow: none;
+  }
+  .rw-multiselect-tag {
+    margin-bottom: 5px;
+    background-color: $secondary-color;
+    border: 1px solid $text-color;
+    border-radius: 2px;
+    padding: 3px 5px 5px 6px;
+    color: $white;
+    font-size: 12px;
+    font-weight: normal;
+    margin: 0 4px 4px 0;
+    text-align: left;
+    > span {
+      display: inline-block;
+      vertical-align: middle;
+      text-transform: capitalize;
+    }
+    button {
+      color: $white;
+      font-size: 1.5em;
+      position: relative;
+      height: 10px;
+      top: -14px;
+    }
+  }
+}
+
+.rw-input-reset {
+  height: calc(2.429em - 2px)
+}
+
+.rw-input, .rw-i {
+  color: $black;
+}
+
+.rw-widget-container {
+  &.rw-state-focus,
+  .rw-state-focus > & {
+    &,
+    &:hover {
+      box-shadow: none;
+      border-color: none;
+    }
+  }
+}
+
+.salesOwnerFilter {
+  min-height: 40px;
+  border: 1px solid lightgray;
+  .rw-widget-input {
+    //padding: 3px 5px;
+  }
+}
+
+.companySales {
+  //min-width: 250px;
+  max-width: 300px;
+  background: none !important;
+  border: none !important;
+  border-bottom: 1px solid $border-color !important;
+  .rw-widget-container {
+    background: none !important;
+  }  
+  ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    max-width: 200px;
+    text-overflow: ellipsis !important;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+    max-width: 200px;
+    text-overflow: ellipsis !important;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+    max-width: 200px;
+    text-overflow: ellipsis !important;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+    max-width: 200px;
+    text-overflow: ellipsis !important;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+}
+
+.upcoming_interviews_dropdown, .upcoming_dues_dropdown {
+  .rw-widget-container {
+    &.rw-state-focus,
+    .rw-state-focus > & {
+      &,
+      &:hover {
+        box-shadow: none;
+        border-color: none;
+      }
+    }
+    // &:hover {
+    //   background-color: $primary-color !important;
+    // }
+  }
+}
+
+.rw-multiselect.rw-widget {
+  span.rw-select {
+    display: none !important;
+  }
+}
+
+.rw-datetime-picker {
+  border-bottom: 1px solid $border-color;
+  .rw-widget-picker > .rw-select {
+    border: none !important;
+    background: $white !important;
+    color: $primary-color !important;
+    .rw-i-calendar {
+      color: $primary-color !important;
+    }
+    .rw-i-clock-o {
+      color: $primary-color !important;
+    }
+  }
+  .rw-widget-picker {
+    background: $white;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    height: 35px;
+    text-transform: capitalize;
+    width: 100%;
+    &:hover {
+      box-shadow: none;
+    }
+    input {
+      color: inherit !important;
+      background: inherit;
+      border: inherit;
+      box-shadow: inherit;
+      outline: inherit;
+      height: inherit;
+      padding: 0 15px;
+    }
+  }
+  .rw-cell.rw-state-selected, .rw-cell.rw-state-selected:hover {
+    background-color: transparent;
+    border: 1px solid $secondary-color;
+    color: $text-color;
+  }
+}
+
+.left-position-popup {
+  .rw-popup-container {
+    left: auto;
+  }
+}
+.rw-popup {
+  border: 1px solid $border-color;
+}
+
+.due_duration {
+  .rw-widget-container {
+    border: $border-color solid 1px !important;
+    padding: 0px !important;
+    margin: 0px;
+    height: 40px;
+    min-width: 160px;
+  }
+  .rw-widget-input {
+    .rw-select {
+      .rw-i {
+        color: $subtle-text-color;;
+        font-weight: normal !important;
+      }
+    }
+  }
+  .rw-input {
+    padding-left: 10px !important;
+    font-size: 14px;
+    height: 20px;
+  }
+  &.rw-dropdown-list.rw-widget {
+    border-bottom: none !important;
+  }
+  .rw-list-option.rw-state-selected {
+    background: $primary-color;
+    border: $primary-color 1px solid;
+  }
+}
+
+.upcoming_interviews {
+  .rw-widget-picker {
+    border: none;
+    box-shadow: none;
+    height: 30px;
+    .rw-input {
+      display: none;
+    }
+    .rw-select {
+      background: $white !important;
+      color: $primary-color !important;
+      border-radius: 20px;
+      width:20px;
+      height: 20px;
+      .rw-i-calendar {
+        color: $primary-color !important;
+        font-size: 14px;
+      }
+    }
+    .rw-select-bordered {
+      border: none !important;
+      &:hover {
+        box-shadow: none !important;
+        border: none !important;
+      }
+    }
+  }
+}
+
+input:-moz-read-only { /* For Firefox */
+  background-color: #e5e5e5;
+}
+
+input:read-only {
+  background-color: #e5e5e5;
+}
+
+.candidateDropDown {
+  margin-top: 32px;
+  margin-bottom: 3px;
+  .rw-widget-input {
+    background-color: $primary-color !important;
+    padding-left: 15px !important;
+  }
+  &.rw-dropdown-list.rw-widget {
+    border-bottom: none !important;
+  }
+  .rw-input, .rw-i {
+    color: #fff;
+  }
+  .rw-widget {
+    font-size: 12px !important;
+    .rw-widget-input, .rw-filter-input {
+      height: 29px;
+    }
+  }
+}
+.rw-multiselect {
+  .rw-widget-input {
+    height: 32px;
+  }
+}
+
+.rw-select-list {
+  overflow: hidden;
+  li {
+    display: inline-block;
+    padding-left: 0 !important;
+  }
+  .rw-list-option {
+    &:hover {
+     background-color: white;
+    }
+    &.rw-state-focus {
+      background-color: $white !important;
+      border: none !important;
+    }
+    &:hover,
+    &:hover.rw-state-focus {
+      background-color: $white;
+      border: none !important;
+    }
+  }
+}

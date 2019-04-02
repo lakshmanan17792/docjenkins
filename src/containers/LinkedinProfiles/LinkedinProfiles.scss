@@ -1,0 +1,166 @@
+@import './../../theme/variables.scss';
+.btn_container {
+  .add_btn {
+    font-size: 13px;
+    padding:8px 24px;
+    border-radius: 2px !important;
+    margin-right: 25px;
+    float: right;
+    margin-top: 5px;
+  }
+  
+  .remove_btn {
+    font-size: 13px;
+    padding:8px 25px;
+    border-radius: 2px !important;
+    margin-right: 25px;
+    float: right;
+    min-width: 135px;
+    margin-top: 5px;
+  }
+}
+
+.detailsContainer {
+  margin-left: 90px;
+}
+
+.profilesContainer {
+  max-height: calc(100vh - 110px);
+}
+
+.secondaryText {
+  color: $lit-grey-font-clr;
+  width: 100%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.primaryText {
+  font-weight: 500;
+      width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.imgContainer {
+  position: absolute;
+  .profileImg {
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 25px;
+  }
+
+  .profileImgAlt {
+    background-color: $primary-color;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 25px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 11px 0 0 11px;
+    color: $white;
+  }
+}
+
+.container {
+  padding-left: 0px;
+  margin-top: 5px;
+  min-height: 50px;
+}
+
+.linkedinProfiles {
+  padding: 10px 0;
+  background-color: $white;
+  border-bottom: 1px solid gainsboro;
+}
+
+.noOfCandidates {
+  border-right: 2px solid $lit-grey;
+  color: $lit-grey;
+  width: 110px;
+  height: 30px;
+  margin: 10px;
+  padding: 5px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  font-weight: 600;
+}
+
+.no_results_found {
+  margin: 10% auto;
+  img {
+    height: 100px;
+    width: 100px;
+  }
+  .sub_head {
+    color: $lit-blue-grey-font;
+    font-size: 2em;
+    font-weight: 400;
+    padding: 10px 0;
+    text-align: center;
+  }
+  .empty_message {
+    color: $lit-blue-grey-font;
+    font-size: 1.5em;
+    font-weight: 400;
+    text-align: center;
+  }
+}
+
+.count_n_search {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 10px;
+    .total_count {
+      height: 40px;
+      float: left;
+      font-size: 1.2em;
+      font-weight: 400;
+      line-height: 3.0;
+      span {
+        &:first-child {
+          padding-right: 5px;
+        }
+      }
+    }
+
+  .search_bar {
+    padding-left: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .btn_container {
+    margin-top: 20px;
+    margin-left: 90px;
+    .add_btn {
+      float: left;
+      margin-right: 9px;
+    }
+    .remove_btn {
+      float: left;
+      margin-right: 9px;
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .profileImgAlt {
+    margin-top: 20px;
+  }
+  .addedDetails {
+    margin-left: 90px;
+  }
+  .add_btn {
+    margin-top: 5px;
+  }
+}
+
+@media (max-width: 1428px) {
+  .add_btn {
+    margin-bottom: 10px;
+  }
+}

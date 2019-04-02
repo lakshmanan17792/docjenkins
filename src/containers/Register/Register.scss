@@ -1,0 +1,168 @@
+@import "./../../theme/variables.scss";
+.register_container {
+  background-image: url("/login_background.png");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  margin: 0px;
+  height: 100vh;
+  position: relative;
+  .registerSection {
+    width: 100%;
+    padding: 0px;
+    .registerHeading {
+      text-align: center;
+      font-size: 23px;
+      margin-bottom: 10px;
+    }
+    .formContainer {
+      text-align: center;
+    }
+  }
+  .register_box {
+    background: $white;
+    box-shadow: 0 1px 2px 0px #b9b9b9;
+    .banner {
+      img {
+        margin: auto;
+      }
+      .register_content {
+        padding: 0px !important;
+      }
+    }
+    .title {
+      color: $lit-blue-grey-font;
+      font-size: 1.3em;
+      font-weight: 400;
+      margin: 20px auto 0;
+      padding: 10px;
+      text-align: center;
+    }
+    label {
+      font-weight: 600;
+    }
+  }
+  .register_btn {
+    width: 100%;
+    border-radius: 20px;
+    padding: 8px;
+  }
+  .forgot_password {
+    a {
+      color: $text-color;
+      font-weight: 600;
+    }
+  }
+  .logged_info {
+    font-size: 1.5em;
+    margin: 100px auto;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .register_box {
+    padding: 10px;
+    float: right;
+    margin: auto 0;
+    width: 30%;
+    height: 100vh;
+    .register_content {
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+}
+
+@media screen and (min-width : 799px) and (max-width : 1024px) and (max-height:1099px) {
+  .register_box {
+    padding: 10px;
+    float: right;
+    width: 40%;
+    height: 100vh;
+    .register_content {
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+}
+
+@media screen and (min-width : 799px) and (max-width : 1100px) and (min-height:1100px) {
+  .register_box {
+    float: none !important;
+    width: 60% !important;
+    height: auto !important;
+    margin: 0 auto !important;
+    margin-top: 30% !important;
+    padding: 20px !important;
+    border-radius: 5px !important;  
+  }
+}
+
+
+@media screen and (min-width : 768px) and (max-width : 799px) {
+  .register_box {
+    float: none;
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 25%;
+    padding: 20px;
+    border-radius: 5px; 
+  }
+}
+
+@media screen and (min-width : 600px) and (max-width : 767px) and (min-height : 767px) {
+  .register_box {
+    float: none;
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 25%;
+    padding: 20px;
+    border-radius: 5px; 
+  }
+}
+
+@media screen and (min-width : 600px) and (max-width : 767px) and (max-height : 767px)  {
+  .register_container {
+    height: auto !important;
+  }
+  .register_box {
+   padding: 10px;
+   float: right;
+   width: 50%;
+   padding-right: 25px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   height: auto;
+ }
+}
+
+@media screen and (min-width : 480px) and (max-width : 599px) {
+  .register_box {
+    float: none;
+    width: 75%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 12%;
+    padding: 20px;
+    border-radius: 5px; 
+  }
+}
+
+@media screen and (min-width : 320px) and (max-width : 480px) {
+  .register_box {
+    float: none;
+    width: 85%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 8%;
+    padding: 20px;
+    border-radius: 5px; 
+  }
+}

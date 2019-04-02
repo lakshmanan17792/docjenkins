@@ -1,0 +1,98 @@
+.overlay {
+  background: rgba(0, 0, 0, 0.24);
+  position: fixed;
+  top: 51px;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+}
+
+.content {
+  box-shadow: -3px 12px 26px rgba(62, 62, 62, 0.66);
+  width: 450px;
+  background: #fff;
+  float: right;
+  right: 0px;
+  left: 0px;
+  height: 100%;
+}
+
+.notification_details {
+      .taskTitle {
+        color: $text-color !important;
+        margin: auto;
+        padding: 0px;
+      }
+      li>a {
+        color: #676a6c !important;
+      }
+      p {
+        text-align: left;
+        padding: 10px;
+      }
+      li {
+        list-style: none;
+        font-size: 13px;
+        .pUp7 {
+          padding-top: 7px !important;
+        }
+        .time {
+          font-size: 11px;
+          padding-top: 5px !important;
+          i {
+            margin-right: 5px;
+            font-size: 11px;
+            color: #a0a0a0 !important;
+          }
+        }
+        .customClose {
+          font-size: 14px;
+          font-style: normal;
+          transform: scale(1.2);
+          color: #afafaf;
+        }
+        .customClose:before {
+          content: "\D7";
+        }
+      }
+      .unReadNotification {
+        border: 1px solid #eee;
+        padding: 15px 0px;
+        padding-left: 15px;
+        &:hover {
+          background-color: #fbfbfb !important;
+        }
+        a {
+          color: $text-color !important;
+        }
+      }
+      .clearMargin {
+        margin:auto;
+      }
+      .readNotification{
+        border: 1px solid #eee;
+        padding: 15px 0px;
+        padding-left: 15px;
+        background-color: #f7f7f7;
+        &:hover {
+          background-color: #fbfbfb !important;
+        }
+        a {
+          color: $text-color !important;
+        }
+      }
+      .notificationContent {
+        margin: auto;
+        padding: 0px;
+        line-height: 21px;
+        text-align: left;
+      }
+    }
+
+    @media only screen and (min-width : 320px) and (max-width: 850px) {
+  .notification_details {
+    // min-width: 300px !important;
+    top: 51px !important;
+    right: -93px !important;
+  }
+}

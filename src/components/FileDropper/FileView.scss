@@ -1,0 +1,96 @@
+
+@import '../../theme/variables.scss';
+@import './../../components/FormComponents/FormComponents.scss';
+
+.overlay {
+  background: rgba(0, 0, 0, 0.24);
+  position: fixed;
+  top: 51px;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+}
+
+@mixin keyframes($animationName) {
+  @-webkit-keyframes #{$animationName} {
+    @content;
+  }
+  @-moz-keyframes #{$animationName} {
+    @content;
+  }
+  @-o-keyframes #{$animationName} {
+    @content;
+  }
+  @keyframes #{$animationName} {
+    @content;
+  }
+}
+
+@mixin animate($name, $duration) {
+  -webkit-animation-name: $name;
+  -moz-animation-name: $name;
+  -o-animation-name: $name;
+  animation-name: $name;
+
+  -webkit-animation-duration: $duration;
+  -moz-animation-duration: $duration;
+  -o-animation-duration: $duration;
+  animation-duration: $duration;
+}
+.content {
+  box-shadow: -3px 12px 26px rgba(62, 62, 62, 0.66);
+  width: 670px;
+  background: #fff;
+  float: right;
+  right: 0px;
+  left: 0px;
+  height: 100%;
+  @include animate(slide-in,0.5s);
+  @include keyframes(slide-in){
+    0% {
+      transform: translateX(100%);
+      -o-transform: translateX(100%);
+      -webkit-transform: translateX(100%);
+      -moz-transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0%);
+      -o-transform: translateX(0%);
+      -webkit-transform: translateX(0%);
+      -moz-transform: translateX(0%);
+    }
+  }
+  .headerClose {
+    float: right;
+    padding-right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .header {
+    background: $dark-grey-background !important;
+    border-bottom: 1px solid $lit-border-clr;
+    .headerColor {
+      color: $primary-color;
+      font-size: 18px;
+    }
+  }
+}
+
+.loader {
+  position: absolute;
+  top: 300px;
+}
+
+.fileLoader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+@media only screen and (min-width : 100px) and (max-width: 450px) {
+  .content {
+    width: 350px;
+  }
+}

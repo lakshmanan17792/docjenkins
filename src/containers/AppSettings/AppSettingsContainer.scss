@@ -1,0 +1,14 @@
+@import '../../theme/variables.scss';
+
+.container {
+  min-height: calc(100vh - 50px);
+  max-height: calc(100vh - 50px);
+  background-color: $white;
+  .title {
+    margin: 10px 0px;
+    font-size: 16px;
+    color: #172B4D;
+    display: inline-block;
+    font-family: "acumin-pro";
+  }
+}

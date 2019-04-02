@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="16px" viewBox="0 0 19 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>refresh-cw</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="refresh-cw" transform="translate(1.000000, 1.000000)" stroke="#5E6C84" stroke-width="1.5">
+            <polyline id="Shape" points="17.1111111 0.777777778 17.1111111 5.44444444 12.4444444 5.44444444"></polyline>
+            <polyline id="Shape" points="0 13.2222222 0 8.55555556 4.66666667 8.55555556"></polyline>
+            <path d="M1.95222222,4.66780491 C2.75401905,2.4014389 4.6622078,0.705007976 7.00644523,0.174465238 C9.35068266,-0.356077501 11.8031207,0.353465822 13.5022222,2.05383393 L17.1111111,5.44577247 M0,8.55764269 L3.60888889,11.9495812 C5.30799045,13.6499493 7.76042846,14.3594927 10.1046659,13.8289499 C12.4489033,13.2984072 14.3570921,11.6019763 15.1588889,9.33561025" id="Shape"></path>
+        </g>
+    </g>
+</svg>

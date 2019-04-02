@@ -1,0 +1,57 @@
+@import '../../theme/variables.scss';
+
+.archival_delete_modal {
+  .close_header_btn {
+    float: right;
+    position: relative;
+    right: 18px;
+    min-width: 30px;
+    min-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    i {
+      position: relative;
+      top: 1px;
+    }
+    img {
+      position: relative;
+      width: 10px;
+      height: 10px;
+      top: 6px;
+      left: 12px;
+    }
+    &:focus, &:hover, &:visited {
+      outline: none;
+    }
+  }
+
+  .modal_title {
+    position: relative;
+    left: 17px;
+    font-size: 18px;
+    @extend %textStyles;
+    color: #172b4d;
+  }
+  .modal_btns {
+    height: 42px;
+    @extend %textStyles;
+    width: fit-content;
+    padding: 15px;
+    font-size: 14px;
+    border-radius: 2px;
+    span {
+      position: relative;
+      top: -7px;
+    }
+  }
+  button.cancel_btn {
+    // border: 2px solid $border-color;
+    // color : $subtle-text-color;
+    // background-color: $light-grey-background;
+    margin-right: 20px;
+  }
+  textarea {
+    resize: none;
+  }
+}
+
