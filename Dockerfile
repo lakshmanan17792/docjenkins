@@ -1,42 +1,14 @@
+#use a node base image
+FROM node:boron-alpine
 
-FROM node:8.11.1
+#maintainer details 
+LABEL maintainer "lakshmanan17792@gmail.com"
 
-# Install required dependencies (Alpine Linux packages)
-# RUN apk update -y && \
-#   apk add --no-cache \
-#     sudo \
-#     g++ \
-#     gcc \
-#     git \
-#     libev-dev \
-#     libevent-dev \
-#     libuv-dev \
-#     make \
-#     openssl-dev \
-#     perl \
-#     python
+#set healthcheckuup
 
-# Add user and make it sudoer
-ARG uid=1000
-ARG user
-RUN adduser -DS -u $uid $user
-RUN echo $user' ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers
+HEALTHCHECK --interval=5s \
+            --timeout=5s \
+CMD curl -f http://127.0.0.1:8000 || exit 1
 
-# Switch to directory for external dependencies (installed from source)
-WORKDIR /external
-
-# Install (global) NPM packages/dependencies
-RUN npm install -g \
-  node-gyp
-
-# Make project directory with permissions
-RUN mkdir /project
-
-# Switch to project directory
-WORKDIR /project
-
-# Copy required stuff
-COPY . .
-
-# Install (local) NPM packages and build
-RUN npm install && npm run postinstall
+# set the image expose port
+EXPOSE 8000
