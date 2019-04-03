@@ -9,7 +9,7 @@ node {
     stage('Build image') {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
-        app = docker.build("ita:ui .")
+        app = docker.build("ita/testing")
     }
 
 } 
